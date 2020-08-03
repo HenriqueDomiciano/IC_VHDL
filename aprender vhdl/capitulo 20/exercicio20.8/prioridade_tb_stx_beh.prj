@@ -1,0 +1,2 @@
+vhdl isim_temp "prioridade.vhd"
+vhdl isim_temp "prioridade_tb.vhd"

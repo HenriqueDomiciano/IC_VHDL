@@ -1,0 +1,9 @@
+V3 3
+FL "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.vhd" 2020/02/21.14:05:02 P.20131013
+EN work/importar_batman 1582304703 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB std/TEXTIO 1381692176
+AR work/importar_batman/behavioral 1582304704 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.vhd" \
+      EN work/importar_batman 1582304703

@@ -1,0 +1,2 @@
+vhdl work "projetomux.vhd"
+vhdl work "projetomux_tb.vhd"

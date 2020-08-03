@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio22.2/registradordeestado.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio22.2/registradordeestado.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio22.2/registradordeestado.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio22.2/registradordeestado.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio22.2/registradordeestado.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio22.2/registradordeestado.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio22.2/registradordeestado.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio22.2/registradordeestado.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio22.2/registradordeestado.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio22.2/registradordeestado.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio22.2/registradordeestado.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio22.2/registradordeestado.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio22.2/registradordeestado.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio22.2/registradordeestado.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio22.2/registradordeestado.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio22.2/registradordeestado.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "registradordeestado.ngc" registradordeestado.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o registradordeestado_map.ncd registradordeestado.ngd registradordeestado.pcf 
+par -w -intstyle ise -ol high -t 1 registradordeestado_map.ncd registradordeestado.ncd registradordeestado.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml registradordeestado.twx registradordeestado.ncd -o registradordeestado.twr registradordeestado.pcf 

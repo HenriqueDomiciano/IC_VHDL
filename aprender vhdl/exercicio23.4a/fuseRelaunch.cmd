@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Dell/Documents/aprender vhdl/exercicio23.4a/geradordeduasjanelas_tb_isim_beh.exe" -prj "C:/Users/Dell/Documents/aprender vhdl/exercicio23.4a/geradordeduasjanelas_tb_beh.prj" "work.geradordeduasjanelas_tb" 

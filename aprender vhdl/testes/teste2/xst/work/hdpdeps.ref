@@ -1,0 +1,14 @@
+V3 6
+FL "C:/Users/Dell/Documents/aprender vhdl/exemplolivro1.vhd" 2019/08/14.16:34:40 P.20131013
+EN work/exemplolivro1 1565811282 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/exemplolivro1.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/exemplolivro1/Behavioral 1565811283 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/exemplolivro1.vhd" \
+      EN work/exemplolivro1 1565811282
+FL "C:/Users/Dell/Documents/aprender vhdl/teste2/teste2.vhd" 2019/08/13.17:18:19 P.20131013
+EN work/teste1 1565727501 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/teste2/teste2.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/teste1/Behavioral 1565727502 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/teste2/teste2.vhd" EN work/teste1 1565727501

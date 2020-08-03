@@ -1,0 +1,28 @@
+Command line:
+   tb_read_image_vhdl_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  55473
+
+Wed Feb 12 19:12:01 2020
+
+
+ Elaboration Time: 0.21875 sec
+
+ Current Memory Usage: 5829.97 Meg
+
+ Total Signals          : 8
+ Total Nets             : 28
+ Total Signal Drivers   : 6
+ Total Blocks           : 3
+ Total Primitive Blocks : 3
+ Total Processes        : 2
+ Total Traceable Variables  : 14
+ Total Scalar Nets and Variables : 512
+
+ Total Simulation Time: 0.21875 sec
+
+ Current Memory Usage: 5200.79 Meg
+
+Wed Feb 12 19:14:32 2020
+

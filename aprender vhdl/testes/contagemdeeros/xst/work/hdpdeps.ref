@@ -1,0 +1,15 @@
+V3 6
+FL "C:/Users/Dell/Documents/aprender vhdl/contagemdeeros/constants.vhd" 2019/08/27.17:36:11 P.20131013
+PH work/constants 1566938174 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/contagemdeeros/constants.vhd" \
+      PB ieee/std_logic_1164 1381692176
+PB work/constants 1566938175 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/contagemdeeros/constants.vhd" \
+      PH work/constants 1566938174
+FL "C:/Users/Dell/Documents/aprender vhdl/contagemdeeros/contagemdezeros.vhd" 2019/08/27.17:36:11 P.20131013
+EN work/contagemdezeros 1566938176 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/contagemdeeros/contagemdezeros.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB work/constants 1566938175
+AR work/contagemdezeros/Behavioral 1566938177 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/contagemdeeros/contagemdezeros.vhd" \
+      EN work/contagemdezeros 1566938176

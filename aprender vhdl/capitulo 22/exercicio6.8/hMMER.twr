@@ -1,0 +1,99 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
+-n 3 -fastpaths -xml hMMER.twx hMMER.ncd -o hMMER.twr hMMER.pcf
+
+Design file:              hMMER.ncd
+Physical constraint file: hMMER.pcf
+Device,package,speed:     xc3s500e,fg320,-4 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+VECTOR<0>      |NUMBER<0>      |    6.519|
+VECTOR<0>      |NUMBER<1>      |   12.960|
+VECTOR<0>      |NUMBER<2>      |   21.544|
+VECTOR<0>      |NUMBER<3>      |   30.919|
+VECTOR<1>      |NUMBER<0>      |    6.531|
+VECTOR<1>      |NUMBER<1>      |   13.184|
+VECTOR<1>      |NUMBER<2>      |   21.768|
+VECTOR<1>      |NUMBER<3>      |   31.143|
+VECTOR<2>      |NUMBER<0>      |    8.666|
+VECTOR<2>      |NUMBER<1>      |   14.659|
+VECTOR<2>      |NUMBER<2>      |   23.243|
+VECTOR<2>      |NUMBER<3>      |   32.618|
+VECTOR<3>      |NUMBER<0>      |    8.250|
+VECTOR<3>      |NUMBER<1>      |   14.243|
+VECTOR<3>      |NUMBER<2>      |   22.827|
+VECTOR<3>      |NUMBER<3>      |   32.202|
+VECTOR<4>      |NUMBER<1>      |    9.693|
+VECTOR<4>      |NUMBER<2>      |   18.277|
+VECTOR<4>      |NUMBER<3>      |   27.652|
+VECTOR<5>      |NUMBER<1>      |   10.222|
+VECTOR<5>      |NUMBER<2>      |   18.806|
+VECTOR<5>      |NUMBER<3>      |   28.181|
+VECTOR<6>      |NUMBER<1>      |    9.440|
+VECTOR<6>      |NUMBER<2>      |   18.024|
+VECTOR<6>      |NUMBER<3>      |   27.399|
+VECTOR<7>      |NUMBER<1>      |   10.428|
+VECTOR<7>      |NUMBER<2>      |   19.012|
+VECTOR<7>      |NUMBER<3>      |   28.387|
+VECTOR<8>      |NUMBER<1>      |   10.451|
+VECTOR<8>      |NUMBER<2>      |   19.035|
+VECTOR<8>      |NUMBER<3>      |   28.410|
+VECTOR<9>      |NUMBER<1>      |   12.054|
+VECTOR<9>      |NUMBER<2>      |   20.638|
+VECTOR<9>      |NUMBER<3>      |   30.013|
+VECTOR<10>     |NUMBER<1>      |   12.336|
+VECTOR<10>     |NUMBER<2>      |   20.920|
+VECTOR<10>     |NUMBER<3>      |   30.295|
+VECTOR<11>     |NUMBER<1>      |   13.405|
+VECTOR<11>     |NUMBER<2>      |   21.989|
+VECTOR<11>     |NUMBER<3>      |   31.364|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Oct 14 18:54:53 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4509 MB
+
+
+

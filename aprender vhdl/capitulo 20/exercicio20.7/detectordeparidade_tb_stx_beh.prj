@@ -1,0 +1,2 @@
+vhdl isim_temp "detectordeparidade.vhd"
+vhdl isim_temp "detectordeparidade_tb.vhd"

@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Dell/Documents/aprender vhdl/exercicio22.2/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Dell/Documents/aprender vhdl/exercicio22.2/xst"
+elaborate
+-ifn multiplexer.prj
+-ifmt mixed

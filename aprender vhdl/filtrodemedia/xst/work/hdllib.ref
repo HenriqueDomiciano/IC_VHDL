@@ -1,0 +1,8 @@
+AR filtrodemedia behavioral "C:/Users/Dell/Documents/aprender vhdl/filtrodemedia/filtrodemedia.vhd" sub00/vhpl05 1583846853
+EN media_filter NULL "C:/Users/Dell/Documents/aprender vhdl/filtrodemedia/filtro_de_media.vhd" sub00/vhpl02 1581975357
+EN sobel_x NULL "C:/Users/Dell/Documents/aprender vhdl/filtrodemedia/filtro_de_media.vhd" sub00/vhpl00 1581697359
+PB tipos tipos "C:/Users/Dell/Documents/aprender vhdl/filtrodemedia/tipos.vhd" sub00/vhpl07 1592855749
+EN filtrodemedia NULL "C:/Users/Dell/Documents/aprender vhdl/filtrodemedia/filtrodemedia.vhd" sub00/vhpl04 1592855750
+PH tipos NULL "C:/Users/Dell/Documents/aprender vhdl/filtrodemedia/tipos.vhd" sub00/vhpl06 1592855748
+AR sobel_x behavioral "C:/Users/Dell/Documents/aprender vhdl/filtrodemedia/filtro_de_media.vhd" sub00/vhpl01 1581697360
+AR media_filter behavioral "C:/Users/Dell/Documents/aprender vhdl/filtrodemedia/filtro_de_media.vhd" sub00/vhpl03 1581975358

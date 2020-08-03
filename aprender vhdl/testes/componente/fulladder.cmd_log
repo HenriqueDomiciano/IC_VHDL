@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/componente/fulladder.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/componente/fulladder.syr" 

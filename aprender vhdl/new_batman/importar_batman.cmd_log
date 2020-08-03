@@ -1,0 +1,290 @@
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "importar_batman.ngc" importar_batman.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o importar_batman_map.ncd importar_batman.ngd importar_batman.pcf 
+par -w -intstyle ise -ol high -t 1 importar_batman_map.ncd importar_batman.ncd importar_batman.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml importar_batman.twx importar_batman.ncd -o importar_batman.twr importar_batman.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "importar_batman.ngc" importar_batman.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o importar_batman_map.ncd importar_batman.ngd importar_batman.pcf 
+par -w -intstyle ise -ol high -t 1 importar_batman_map.ncd importar_batman.ncd importar_batman.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml importar_batman.twx importar_batman.ncd -o importar_batman.twr importar_batman.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "importar_batman.ngc" importar_batman.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o importar_batman_map.ncd importar_batman.ngd importar_batman.pcf 
+par -w -intstyle ise -ol high -t 1 importar_batman_map.ncd importar_batman.ncd importar_batman.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml importar_batman.twx importar_batman.ncd -o importar_batman.twr importar_batman.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "importar_batman.ngc" importar_batman.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o importar_batman_map.ncd importar_batman.ngd importar_batman.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "importar_batman.ngc" importar_batman.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o importar_batman_map.ncd importar_batman.ngd importar_batman.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "importar_batman.ngc" importar_batman.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o importar_batman_map.ncd importar_batman.ngd importar_batman.pcf 
+par -w -intstyle ise -ol high -t 1 importar_batman_map.ncd importar_batman.ncd importar_batman.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml importar_batman.twx importar_batman.ncd -o importar_batman.twr importar_batman.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "importar_batman.ngc" importar_batman.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o importar_batman_map.ncd importar_batman.ngd importar_batman.pcf 
+par -w -intstyle ise -ol high -t 1 importar_batman_map.ncd importar_batman.ncd importar_batman.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml importar_batman.twx importar_batman.ncd -o importar_batman.twr importar_batman.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "importar_batman.ngc" importar_batman.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o importar_batman_map.ncd importar_batman.ngd importar_batman.pcf 
+par -w -intstyle ise -ol high -t 1 importar_batman_map.ncd importar_batman.ncd importar_batman.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml importar_batman.twx importar_batman.ncd -o importar_batman.twr importar_batman.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "importar_batman.ngc" importar_batman.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o importar_batman_map.ncd importar_batman.ngd importar_batman.pcf 
+par -w -intstyle ise -ol high -t 1 importar_batman_map.ncd importar_batman.ncd importar_batman.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml importar_batman.twx importar_batman.ncd -o importar_batman.twr importar_batman.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "importar_batman.ngc" importar_batman.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o importar_batman_map.ncd importar_batman.ngd importar_batman.pcf 
+par -w -intstyle ise -ol high -t 1 importar_batman_map.ncd importar_batman.ncd importar_batman.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml importar_batman.twx importar_batman.ncd -o importar_batman.twr importar_batman.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "importar_batman.ngc" importar_batman.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o importar_batman_map.ncd importar_batman.ngd importar_batman.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "importar_batman.ngc" importar_batman.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o importar_batman_map.ncd importar_batman.ngd importar_batman.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "importar_batman.ngc" importar_batman.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o importar_batman_map.ncd importar_batman.ngd importar_batman.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7vx330t-ffg1157-3 "importar_batman.ngc" importar_batman.ngd  
+map -intstyle ise -p xc7vx330t-ffg1157-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o importar_batman_map.ncd importar_batman.ngd importar_batman.pcf 
+par -w -intstyle ise -ol high -mt off importar_batman_map.ncd importar_batman.ncd importar_batman.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml importar_batman.twx importar_batman.ncd -o importar_batman.twr importar_batman.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7vx330t-ffg1157-3 "importar_batman.ngc" importar_batman.ngd  
+map -intstyle ise -p xc7vx330t-ffg1157-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o importar_batman_map.ncd importar_batman.ngd importar_batman.pcf 
+par -w -intstyle ise -ol high -mt off importar_batman_map.ncd importar_batman.ncd importar_batman.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml importar_batman.twx importar_batman.ncd -o importar_batman.twr importar_batman.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-5 "importar_batman.ngc" importar_batman.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o importar_batman_map.ncd importar_batman.ngd importar_batman.pcf 
+par -w -intstyle ise -ol high -t 1 importar_batman_map.ncd importar_batman.ncd importar_batman.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml importar_batman.twx importar_batman.ncd -o importar_batman.twr importar_batman.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-5 "importar_batman.ngc" importar_batman.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o importar_batman_map.ncd importar_batman.ngd importar_batman.pcf 
+par -w -intstyle ise -ol high -t 1 importar_batman_map.ncd importar_batman.ncd importar_batman.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml importar_batman.twx importar_batman.ncd -o importar_batman.twr importar_batman.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-5 "importar_batman.ngc" importar_batman.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o importar_batman_map.ncd importar_batman.ngd importar_batman.pcf 
+par -w -intstyle ise -ol high -t 1 importar_batman_map.ncd importar_batman.ncd importar_batman.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml importar_batman.twx importar_batman.ncd -o importar_batman.twr importar_batman.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-5 "importar_batman.ngc" importar_batman.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o importar_batman_map.ncd importar_batman.ngd importar_batman.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-5 "importar_batman.ngc" importar_batman.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o importar_batman_map.ncd importar_batman.ngd importar_batman.pcf 
+par -w -intstyle ise -ol high -t 1 importar_batman_map.ncd importar_batman.ncd importar_batman.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml importar_batman.twx importar_batman.ncd -o importar_batman.twr importar_batman.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-5 "importar_batman.ngc" importar_batman.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o importar_batman_map.ncd importar_batman.ngd importar_batman.pcf 
+par -w -intstyle ise -ol high -t 1 importar_batman_map.ncd importar_batman.ncd importar_batman.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml importar_batman.twx importar_batman.ncd -o importar_batman.twr importar_batman.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-5 "importar_batman.ngc" importar_batman.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o importar_batman_map.ncd importar_batman.ngd importar_batman.pcf 
+par -w -intstyle ise -ol high -t 1 importar_batman_map.ncd importar_batman.ncd importar_batman.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml importar_batman.twx importar_batman.ncd -o importar_batman.twr importar_batman.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-5 "importar_batman.ngc" importar_batman.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o importar_batman_map.ncd importar_batman.ngd importar_batman.pcf 
+par -w -intstyle ise -ol high -t 1 importar_batman_map.ncd importar_batman.ncd importar_batman.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml importar_batman.twx importar_batman.ncd -o importar_batman.twr importar_batman.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-5 "importar_batman.ngc" importar_batman.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o importar_batman_map.ncd importar_batman.ngd importar_batman.pcf 
+par -w -intstyle ise -ol high -t 1 importar_batman_map.ncd importar_batman.ncd importar_batman.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml importar_batman.twx importar_batman.ncd -o importar_batman.twr importar_batman.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-5 "importar_batman.ngc" importar_batman.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o importar_batman_map.ncd importar_batman.ngd importar_batman.pcf 
+par -w -intstyle ise -ol high -t 1 importar_batman_map.ncd importar_batman.ncd importar_batman.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml importar_batman.twx importar_batman.ncd -o importar_batman.twr importar_batman.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-5 "importar_batman.ngc" importar_batman.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o importar_batman_map.ncd importar_batman.ngd importar_batman.pcf 
+par -w -intstyle ise -ol high -t 1 importar_batman_map.ncd importar_batman.ncd importar_batman.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml importar_batman.twx importar_batman.ncd -o importar_batman.twr importar_batman.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-5 "importar_batman.ngc" importar_batman.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o importar_batman_map.ncd importar_batman.ngd importar_batman.pcf 
+par -w -intstyle ise -ol high -t 1 importar_batman_map.ncd importar_batman.ncd importar_batman.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml importar_batman.twx importar_batman.ncd -o importar_batman.twr importar_batman.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-5 "importar_batman.ngc" importar_batman.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o importar_batman_map.ncd importar_batman.ngd importar_batman.pcf 
+par -w -intstyle ise -ol high -t 1 importar_batman_map.ncd importar_batman.ncd importar_batman.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml importar_batman.twx importar_batman.ncd -o importar_batman.twr importar_batman.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-5 "importar_batman.ngc" importar_batman.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o importar_batman_map.ncd importar_batman.ngd importar_batman.pcf 
+par -w -intstyle ise -ol high -t 1 importar_batman_map.ncd importar_batman.ncd importar_batman.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml importar_batman.twx importar_batman.ncd -o importar_batman.twr importar_batman.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-5 "importar_batman.ngc" importar_batman.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o importar_batman_map.ncd importar_batman.ngd importar_batman.pcf 
+par -w -intstyle ise -ol high -t 1 importar_batman_map.ncd importar_batman.ncd importar_batman.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml importar_batman.twx importar_batman.ncd -o importar_batman.twr importar_batman.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-5 "importar_batman.ngc" importar_batman.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o importar_batman_map.ncd importar_batman.ngd importar_batman.pcf 
+par -w -intstyle ise -ol high -t 1 importar_batman_map.ncd importar_batman.ncd importar_batman.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml importar_batman.twx importar_batman.ncd -o importar_batman.twr importar_batman.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-5 "importar_batman.ngc" importar_batman.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o importar_batman_map.ncd importar_batman.ngd importar_batman.pcf 
+par -w -intstyle ise -ol high -t 1 importar_batman_map.ncd importar_batman.ncd importar_batman.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml importar_batman.twx importar_batman.ncd -o importar_batman.twr importar_batman.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-5 "importar_batman.ngc" importar_batman.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o importar_batman_map.ncd importar_batman.ngd importar_batman.pcf 
+par -w -intstyle ise -ol high -t 1 importar_batman_map.ncd importar_batman.ncd importar_batman.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml importar_batman.twx importar_batman.ncd -o importar_batman.twr importar_batman.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-5 "importar_batman.ngc" importar_batman.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o importar_batman_map.ncd importar_batman.ngd importar_batman.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-5 "importar_batman.ngc" importar_batman.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o importar_batman_map.ncd importar_batman.ngd importar_batman.pcf 
+par -w -intstyle ise -ol high -t 1 importar_batman_map.ncd importar_batman.ncd importar_batman.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml importar_batman.twx importar_batman.ncd -o importar_batman.twr importar_batman.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-5 "importar_batman.ngc" importar_batman.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o importar_batman_map.ncd importar_batman.ngd importar_batman.pcf 
+par -w -intstyle ise -ol high -t 1 importar_batman_map.ncd importar_batman.ncd importar_batman.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml importar_batman.twx importar_batman.ncd -o importar_batman.twr importar_batman.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-5 "importar_batman.ngc" importar_batman.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o importar_batman_map.ncd importar_batman.ngd importar_batman.pcf 
+par -w -intstyle ise -ol high -t 1 importar_batman_map.ncd importar_batman.ncd importar_batman.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml importar_batman.twx importar_batman.ncd -o importar_batman.twr importar_batman.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.syr" 

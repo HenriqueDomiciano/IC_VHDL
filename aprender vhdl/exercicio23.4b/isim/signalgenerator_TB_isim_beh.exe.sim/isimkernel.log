@@ -1,0 +1,28 @@
+Command line:
+   signalgenerator_TB_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  52273
+
+Mon Nov 11 15:45:21 2019
+
+
+ Elaboration Time: 0.25 sec
+
+ Current Memory Usage: 5673.65 Meg
+
+ Total Signals          : 7
+ Total Nets             : 5
+ Total Signal Drivers   : 5
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 4
+ Total Traceable Variables  : 9
+ Total Scalar Nets and Variables : 366
+
+ Total Simulation Time: 0.25 sec
+
+ Current Memory Usage: 5044.47 Meg
+
+Mon Nov 11 15:49:47 2019
+

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Dell/Documents/aprender vhdl/project1/decodificadordeendereco_tb_isim_beh.exe" -prj "C:/Users/Dell/Documents/aprender vhdl/project1/decodificadordeendereco_tb_beh.prj" "work.decodificadordeendereco_tb" 

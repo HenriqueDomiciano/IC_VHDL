@@ -1,0 +1,28 @@
+Command line:
+   contadorcomonolivro_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49673
+
+Tue Oct 22 16:05:13 2019
+
+
+ Elaboration Time: 0.265625 sec
+
+ Current Memory Usage: 5673.67 Meg
+
+ Total Signals          : 12
+ Total Nets             : 18
+ Total Signal Drivers   : 5
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 3
+ Total Traceable Variables  : 10
+ Total Scalar Nets and Variables : 380
+
+ Total Simulation Time: 0.28125 sec
+
+ Current Memory Usage: 5044.49 Meg
+
+Tue Oct 22 16:08:37 2019
+

@@ -1,0 +1,17 @@
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/teste1/teste1.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/teste1/teste1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "teste1.ngc" teste1.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o teste1_map.ncd teste1.ngd teste1.pcf 
+par -w -intstyle ise -ol high -mt off teste1_map.ncd teste1.ncd teste1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml teste1.twx teste1.ncd -o teste1.twr teste1.pcf 
+bitgen -intstyle ise -f teste1.ut teste1.ncd 
+netgen -intstyle ise -ar Structure -tm teste1 -w -dir netgen/synthesis -ofmt vhdl -sim teste1.ngc teste1_synthesis.vhd 
+bitgen -intstyle ise -f teste1.ut teste1.ncd 
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o teste1_map.ncd teste1.ngd teste1.pcf 
+par -w -intstyle ise -ol high -mt off teste1_map.ncd teste1.ncd teste1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml teste1.twx teste1.ncd -o teste1.twr teste1.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/teste1/teste1.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/teste1/teste1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "teste1.ngc" teste1.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o teste1_map.ncd teste1.ngd teste1.pcf 
+par -w -intstyle ise -ol high -mt off teste1_map.ncd teste1.ncd teste1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml teste1.twx teste1.ncd -o teste1.twr teste1.pcf 
+bitgen -intstyle ise -f teste1.ut teste1.ncd 

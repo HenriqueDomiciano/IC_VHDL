@@ -1,0 +1,3 @@
+vhdl work "constants.vhd"
+vhdl work "contagemdezeros.vhd"
+vhdl work "contagemdezeros_tb.vhd"

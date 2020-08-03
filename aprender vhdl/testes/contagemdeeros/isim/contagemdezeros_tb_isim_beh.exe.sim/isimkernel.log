@@ -1,0 +1,28 @@
+Command line:
+   contagemdezeros_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  57152
+
+Tue Aug 27 18:27:48 2019
+
+
+ Elaboration Time: 0.140625 sec
+
+ Current Memory Usage: 1497.91 Meg
+
+ Total Signals          : 4
+ Total Nets             : 9
+ Total Signal Drivers   : 2
+ Total Blocks           : 4
+ Total Primitive Blocks : 3
+ Total Processes        : 2
+ Total Traceable Variables  : 9
+ Total Scalar Nets and Variables : 370
+
+ Total Simulation Time: 0.25 sec
+
+ Current Memory Usage: 1026.02 Meg
+
+Tue Aug 27 18:29:10 2019
+

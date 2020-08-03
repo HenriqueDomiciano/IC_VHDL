@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio20.04/bcdtossd.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio20.04/bcdtossd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "bcdtossd.ngc" bcdtossd.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "bcdtossd.ngc" bcdtossd.ngd  

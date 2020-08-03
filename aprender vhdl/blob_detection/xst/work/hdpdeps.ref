@@ -1,0 +1,64 @@
+V3 28
+FL "C:/Users/Dell/Documents/aprender vhdl/blob_detection/blob.vhd" 2020/06/24.18:34:49 P.20131013
+EN work/blob 0 FL "C:/Users/Dell/Documents/aprender vhdl/blob_detection/blob.vhd" \
+      PB work/new_packaage 1596398556 PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181
+FL "C:/Users/Dell/Documents/aprender vhdl/blob_detection/blob_1.vhd" 2020/08/02.17:02:31 P.20131013
+EN work/blob_1 1596398563 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/blob_detection/blob_1.vhd" \
+      PB work/new_packaage 1596398556 PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 PB std/TEXTIO 1381692176
+AR work/blob_1/behavioral 1596398564 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/blob_detection/blob_1.vhd" \
+      EN work/blob_1 1596398563 CP median_filter CP subtract CP threshold
+FL "C:/Users/Dell/Documents/aprender vhdl/blob_detection/dilatation.vhd" 2020/06/24.18:25:08 P.20131013
+EN work/dilatation 1595353630 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/blob_detection/dilatation.vhd" \
+      PB work/new_packaage 1596398556 PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/dilatation/Behavioral 1595353631 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/blob_detection/dilatation.vhd" \
+      EN work/dilatation 1595353630
+FL "C:/Users/Dell/Documents/aprender vhdl/blob_detection/manhatan_distance.vhd" 2020/06/18.14:35:27 P.20131013
+PH work/manhatan_distance 1592501981 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/blob_detection/manhatan_distance.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+PB work/manhatan_distance 1592501982 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/blob_detection/manhatan_distance.vhd" \
+      PH work/manhatan_distance 1592501981
+FL "C:/Users/Dell/Documents/aprender vhdl/blob_detection/median_filter.vhd" 2020/07/31.16:19:58 P.20131013
+EN work/median_filter 1596398557 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/blob_detection/median_filter.vhd" \
+      PB work/new_packaage 1596398556 PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/median_filter/Behavioral 1596398558 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/blob_detection/median_filter.vhd" \
+      EN work/median_filter 1596398557
+FL "C:/Users/Dell/Documents/aprender vhdl/blob_detection/new_packaage.vhd" 2020/07/31.16:26:02 P.20131013
+PH work/new_packaage 1596398555 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/blob_detection/new_packaage.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB std/TEXTIO 1381692176
+PB work/new_packaage 1596398556 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/blob_detection/new_packaage.vhd" \
+      PH work/new_packaage 1596398555
+FL "C:/Users/Dell/Documents/aprender vhdl/blob_detection/subtract.vhd" 2020/06/24.18:31:52 P.20131013
+EN work/subtract 1596398559 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/blob_detection/subtract.vhd" \
+      PB work/new_packaage 1596398556 PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/subtract/Behavioral 1596398560 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/blob_detection/subtract.vhd" \
+      EN work/subtract 1596398559
+FL "C:/Users/Dell/Documents/aprender vhdl/blob_detection/threshold.vhd" 2020/06/24.17:28:17 P.20131013
+EN work/threshold 1596398561 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/blob_detection/threshold.vhd" \
+      PB work/new_packaage 1596398556 PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/threshold/Behavioral 1596398562 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/blob_detection/threshold.vhd" \
+      EN work/threshold 1596398561
+FL "C:/Users/Dell/Documents/aprender vhdl/blob_detection/tipos.vhd" 2020/06/22.18:07:19 P.20131013
+PH work/tipos 0 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/blob_detection/tipos.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181

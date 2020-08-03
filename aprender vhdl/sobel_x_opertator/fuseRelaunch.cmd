@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_X_tb_isim_beh.exe" -prj "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_X_tb_beh.prj" "work.sobel_X_tb" 

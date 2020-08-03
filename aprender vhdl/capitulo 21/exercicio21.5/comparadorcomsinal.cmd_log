@@ -1,0 +1,19 @@
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.5/comparadorcomsinal.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.5/comparadorcomsinal.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.5/comparadorcomsinal.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.5/comparadorcomsinal.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.5/comparadorcomsinal.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.5/comparadorcomsinal.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.5/comparadorcomsinal.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.5/comparadorcomsinal.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.5/comparadorcomsinal.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.5/comparadorcomsinal.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.5/comparadorcomsinal.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.5/comparadorcomsinal.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.5/comparadorcomsinal.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.5/comparadorcomsinal.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.5/comparadorcomsinal.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.5/comparadorcomsinal.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.5/comparadorcomsinal.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.5/comparadorcomsinal.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.5/comparadorcomsinal.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.5/comparadorcomsinal.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.5/comparadorcomsinal.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.5/comparadorcomsinal.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.5/comparadorcomsinal.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.5/comparadorcomsinal.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.5/comparadorcomsinal.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.5/comparadorcomsinal.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.5/comparadorcomsinal.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.5/comparadorcomsinal.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.5/comparadorcomsinal.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.5/comparadorcomsinal.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "comparadorcomsinal.ngc" comparadorcomsinal.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o comparadorcomsinal_map.ncd comparadorcomsinal.ngd comparadorcomsinal.pcf 
+par -w -intstyle ise -ol high -t 1 comparadorcomsinal_map.ncd comparadorcomsinal.ncd comparadorcomsinal.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml comparadorcomsinal.twx comparadorcomsinal.ncd -o comparadorcomsinal.twr comparadorcomsinal.pcf 

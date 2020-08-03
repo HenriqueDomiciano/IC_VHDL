@@ -1,0 +1,8 @@
+V3 4
+FL "C:/Users/Dell/Documents/aprender vhdl/exercici23.2b/signalgenerator.vhd" 2019/11/03.19:36:21 P.20131013
+EN work/signalgenerator 0 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/exercici23.2b/signalgenerator.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/signalgenerator/Behavioral 0 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/exercici23.2b/signalgenerator.vhd" \
+      EN work/signalgenerator 0 CP integer

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLCompiler" num="439" delta="unknown" >"C:/Users/Dell/Documents/aprender vhdl/teste2/importar_batman_tb.vhd" Line 12: Formal port <arg fmt="%s" index="1">data</arg> of mode <arg fmt="%s" index="2">out</arg> cannot be associated with actual port <arg fmt="%s" index="3">data</arg> of mode <arg fmt="%s" index="4">in</arg>
+</msg>
+
+<msg type="error" file="HDLCompiler" num="410" delta="unknown" >"C:/Users/Dell/Documents/aprender vhdl/teste2/importar_batman_tb.vhd" Line 13: Expression has <arg fmt="%d" index="1">14</arg> elements ; expected <arg fmt="%d" index="2">13</arg>
+</msg>
+
+<msg type="error" file="HDLCompiler" num="410" delta="unknown" >"C:/Users/Dell/Documents/aprender vhdl/teste2/importar_batman_tb.vhd" Line 14: Expression has <arg fmt="%d" index="1">14</arg> elements ; expected <arg fmt="%d" index="2">13</arg>
+</msg>
+
+<msg type="error" file="HDLCompiler" num="439" delta="unknown" >"C:/Users/Dell/Documents/aprender vhdl/teste2/importar_batman_tb.vhd" Line 17: Formal port <arg fmt="%s" index="1">q</arg> of mode <arg fmt="%s" index="2">in</arg> cannot be associated with actual port <arg fmt="%s" index="3">q</arg> of mode <arg fmt="%s" index="4">out</arg>
+</msg>
+
+<msg type="error" file="HDLCompiler" num="410" delta="unknown" >"C:/Users/Dell/Documents/aprender vhdl/teste2/importar_batman_tb.vhd" Line 17: Expression has <arg fmt="%d" index="1">8</arg> elements ; expected <arg fmt="%d" index="2">13</arg>
+</msg>
+
+<msg type="error" file="Simulator" num="777" delta="unknown" >Static elaboration of top level VHDL design unit <arg fmt="%s" index="1">importar_batman_tb</arg> in library <arg fmt="%s" index="2">work</arg> failed
+</msg>
+
+</messages>
+

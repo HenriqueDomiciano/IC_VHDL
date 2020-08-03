@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Dell/Documents/aprender vhdl/teste1/simulteste1_isim_beh.exe" -prj "C:/Users/Dell/Documents/aprender vhdl/teste1/simulteste1_beh.prj" "work.simulteste1" 

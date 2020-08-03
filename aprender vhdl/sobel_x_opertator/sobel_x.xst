@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/xst"
+elaborate
+-ifn sobel_x.prj
+-ifmt mixed

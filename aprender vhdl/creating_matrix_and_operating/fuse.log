@@ -1,0 +1,23 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Dell/Documents/aprender vhdl/creating_matrix_and_operating/teste_isim_beh.exe -prj C:/Users/Dell/Documents/aprender vhdl/creating_matrix_and_operating/teste_beh.prj work.teste 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Dell/Documents/aprender vhdl/creating_matrix_and_operating/teste.vhd" into library work
+Starting static elaboration
+WARNING:HDLCompiler:89 - "C:/Users/Dell/Documents/aprender vhdl/creating_matrix_and_operating/teste.vhd" Line 41: <image1> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "C:/Users/Dell/Documents/aprender vhdl/creating_matrix_and_operating/teste.vhd" Line 47: <image2> remains a black-box since it has no binding entity.
+Completed static elaboration
+WARNING:Simulator:648 - "C:/Users/Dell/Documents/aprender vhdl/creating_matrix_and_operating/teste.vhd" Line 41. Instance image1 is unbound
+WARNING:Simulator:648 - "C:/Users/Dell/Documents/aprender vhdl/creating_matrix_and_operating/teste.vhd" Line 47. Instance image2 is unbound
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity teste
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 5 VHDL Units
+Built simulation executable C:/Users/Dell/Documents/aprender vhdl/creating_matrix_and_operating/teste_isim_beh.exe
+Fuse Memory Usage: 34584 KB
+Fuse CPU Usage: 592 ms

@@ -1,0 +1,20 @@
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio6.8/hammer.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio6.8/hammer.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio6.8/hammer.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio6.8/hammer.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio6.8/hammer.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio6.8/hammer.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio6.8/hammer.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio6.8/hammer.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio6.8/hammer.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio6.8/hammer.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio6.8/hammer.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio6.8/hammer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "hammer.ngc" hammer.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o hammer_map.ncd hammer.ngd hammer.pcf 
+par -w -intstyle ise -ol high -t 1 hammer_map.ncd hammer.ncd hammer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml hammer.twx hammer.ncd -o hammer.twr hammer.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio6.8/hammer.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio6.8/hammer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "hammer.ngc" hammer.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o hammer_map.ncd hammer.ngd hammer.pcf 
+par -w -intstyle ise -ol high -t 1 hammer_map.ncd hammer.ncd hammer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml hammer.twx hammer.ncd -o hammer.twr hammer.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio6.8/hammer.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio6.8/hammer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "hammer.ngc" hammer.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o hammer_map.ncd hammer.ngd hammer.pcf 
+par -w -intstyle ise -ol high -t 1 hammer_map.ncd hammer.ncd hammer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml hammer.twx hammer.ncd -o hammer.twr hammer.pcf 

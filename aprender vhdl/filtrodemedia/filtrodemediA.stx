@@ -1,0 +1,37 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/Dell/Documents/aprender vhdl/filtrodemedia/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/Dell/Documents/aprender vhdl/filtrodemedia/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Dell/Documents/aprender vhdl/filtrodemedia/tipos.vhd" in Library work.
+Architecture tipos of Entity tipos is up to date.
+Compiling vhdl file "C:/Users/Dell/Documents/aprender vhdl/filtrodemedia/filtrodemedia.vhd" in Library work.
+Entity <filtrodemedia> compiled.
+ERROR:HDLParsers:808 - "C:/Users/Dell/Documents/aprender vhdl/filtrodemedia/filtrodemedia.vhd" Line 41. + can not have such operands in this context.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> 
+
+Total memory usage is 4491752 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,2 @@
+vhdl work "detectordeparidade.vhd"
+vhdl work "detectordeparidade_tb.vhd"

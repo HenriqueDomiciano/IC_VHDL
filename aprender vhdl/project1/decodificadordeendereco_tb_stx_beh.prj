@@ -1,0 +1,2 @@
+vhdl isim_temp "decodificadordeendereco.vhd"
+vhdl isim_temp "decodificadordeendereco_tb.vhd"

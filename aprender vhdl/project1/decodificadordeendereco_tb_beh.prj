@@ -1,0 +1,2 @@
+vhdl work "decodificadordeendereco.vhd"
+vhdl work "decodificadordeendereco_tb.vhd"

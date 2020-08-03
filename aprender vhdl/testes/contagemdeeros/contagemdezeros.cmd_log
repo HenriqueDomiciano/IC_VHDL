@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/contagemdeeros/contagemdezeros.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/contagemdeeros/contagemdezeros.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "contagemdezeros.ngc" contagemdezeros.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o contagemdezeros_map.ncd contagemdezeros.ngd contagemdezeros.pcf 
+par -w -intstyle ise -ol high -t 1 contagemdezeros_map.ncd contagemdezeros.ncd contagemdezeros.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml contagemdezeros.twx contagemdezeros.ncd -o contagemdezeros.twr contagemdezeros.pcf 

@@ -1,0 +1,14 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Dell/Documents/aprender vhdl/teste2/importar_batman_tb_isim_beh.exe -prj C:/Users/Dell/Documents/aprender vhdl/teste2/importar_batman_tb_beh.prj work.importar_batman_tb 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Dell/Documents/aprender vhdl/teste2/importar_batman.vhd" into library work
+Parsing VHDL file "C:/Users/Dell/Documents/aprender vhdl/teste2/importar_batman_tb.vhd" into library work
+Starting static elaboration
+ERROR:HDLCompiler:439 - "C:/Users/Dell/Documents/aprender vhdl/teste2/importar_batman_tb.vhd" Line 12: Formal port data of mode out cannot be associated with actual port data of mode in
+ERROR:HDLCompiler:410 - "C:/Users/Dell/Documents/aprender vhdl/teste2/importar_batman_tb.vhd" Line 13: Expression has 14 elements ; expected 13
+ERROR:HDLCompiler:410 - "C:/Users/Dell/Documents/aprender vhdl/teste2/importar_batman_tb.vhd" Line 14: Expression has 14 elements ; expected 13
+ERROR:HDLCompiler:439 - "C:/Users/Dell/Documents/aprender vhdl/teste2/importar_batman_tb.vhd" Line 17: Formal port q of mode in cannot be associated with actual port q of mode out
+ERROR:HDLCompiler:410 - "C:/Users/Dell/Documents/aprender vhdl/teste2/importar_batman_tb.vhd" Line 17: Expression has 8 elements ; expected 13
+ERROR:Simulator:777 - Static elaboration of top level VHDL design unit importar_batman_tb in library work failed

@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Dell/Documents/aprender vhdl/new_batman/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Dell/Documents/aprender vhdl/new_batman/xst"
+elaborate
+-ifn importar_batman.prj
+-ifmt mixed

@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Dell/Documents/aprender vhdl/blob_detection/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Dell/Documents/aprender vhdl/blob_detection/xst"
+elaborate
+-ifn dilatation.prj
+-ifmt mixed

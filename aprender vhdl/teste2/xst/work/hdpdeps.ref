@@ -1,0 +1,25 @@
+V3 9
+FL "C:/Users/Dell/Documents/aprender vhdl/teste2/importar_batman.vhd" 2020/02/13.13:18:20 P.20131013
+EN work/importar_batman 1581610843 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/teste2/importar_batman.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB std/TEXTIO 1381692176
+AR work/importar_batman/behavioral 1581610844 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/teste2/importar_batman.vhd" \
+      EN work/importar_batman 1581610843
+FL "C:/Users/Dell/Documents/aprender vhdl/teste2/importa_imagens.vhd" 2020/02/12.19:10:55 P.20131013
+EN work/importa_imagens 1581545458 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/teste2/importa_imagens.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB std/TEXTIO 1381692176
+AR work/importa_imagens/Behavioral 1581545459 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/teste2/importa_imagens.vhd" \
+      EN work/importa_imagens 1581545458
+FL "C:/Users/Dell/Documents/aprender vhdl/teste2/read_image_vhdl.vhd" 2020/02/13.08:01:04 P.20131013
+EN work/read_image_VHDL 1581592844 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/teste2/read_image_vhdl.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB std/TEXTIO 1381692176
+AR work/read_image_VHDL/behavioral 1581592845 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/teste2/read_image_vhdl.vhd" \
+      EN work/read_image_VHDL 1581592844

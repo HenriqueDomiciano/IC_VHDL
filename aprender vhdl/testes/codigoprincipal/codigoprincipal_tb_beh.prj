@@ -1,0 +1,3 @@
+vhdl work "../componente/fulladder.vhd"
+vhdl work "codigoprincipal.vhd"
+vhdl work "codigoprincipal_tb.vhd"

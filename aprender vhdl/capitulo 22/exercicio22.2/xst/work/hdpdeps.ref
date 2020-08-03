@@ -1,0 +1,29 @@
+V3 14
+FL "C:/Users/Dell/Documents/aprender vhdl/exercicio22.2/ffbank.vhd" 2019/10/03.19:21:07 P.20131013
+EN work/ffbank 1570227551 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/exercicio22.2/ffbank.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/ffbank/ffbank 1570227552 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/exercicio22.2/ffbank.vhd" \
+      EN work/ffbank 1570227551
+FL "C:/Users/Dell/Documents/aprender vhdl/exercicio22.2/multiplexer.vhd" 2019/10/03.19:38:29 P.20131013
+EN work/multiplexer 1570227549 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/exercicio22.2/multiplexer.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/multiplexer/Behavioral 1570227550 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/exercicio22.2/multiplexer.vhd" \
+      EN work/multiplexer 1570227549
+FL "C:/Users/Dell/Documents/aprender vhdl/exercicio22.2/my_package.vhd" 2019/10/03.19:40:14 P.20131013
+PH work/my_package 1570227547 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/exercicio22.2/my_package.vhd" \
+      PB ieee/std_logic_1164 1381692176
+PB work/my_package 1570227548 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/exercicio22.2/my_package.vhd" \
+      PH work/my_package 1570227547
+FL "C:/Users/Dell/Documents/aprender vhdl/exercicio22.2/registradordeestado.vhd" 2019/10/04.19:18:39 P.20131013
+EN work/registradordeestado 1570227553 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/exercicio22.2/registradordeestado.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB work/my_package 1570227548
+AR work/registradordeestado/Structural 1570227554 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/exercicio22.2/registradordeestado.vhd" \
+      EN work/registradordeestado 1570227553 CP multiplexer CP ffbank

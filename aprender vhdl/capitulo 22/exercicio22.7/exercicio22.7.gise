@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="exercicio22.7.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="temporizador.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="temporizador.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="temporizador.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="temporizador.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="temporizador.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="temporizador.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="temporizador.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="temporizador.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="temporizador.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="temporizador.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="temporizador.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="temporizador.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="temporizador.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="temporizador.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="temporizador.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="temporizador.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="temporizador.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="temporizador.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="temporizador.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="temporizador_TB_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="temporizador_TB_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="temporizador_TB_isim_beh.wdb"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="temporizador_TB_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="temporizador_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="temporizador_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="temporizador_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="temporizador_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="temporizador_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="temporizador_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="temporizador_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="temporizador_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="temporizador_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="temporizador_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="temporizador_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="temporizador_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="temporizador_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="temporizador_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="temporizador_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="temporizador_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1571772654" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1571772654">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1571772767" xil_pn:in_ck="-1960465492479765995" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1571772767">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="temporizador.vhd"/>
+      <outfile xil_pn:name="temporizador_TB.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1571772654" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="5674923653211089579" xil_pn:start_ts="1571772654">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1571772654" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-8380920817696905875" xil_pn:start_ts="1571772654">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1571772654" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="4532155069190402091" xil_pn:start_ts="1571772654">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1571772772" xil_pn:in_ck="-1960465492479765995" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1571772772">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="temporizador.vhd"/>
+      <outfile xil_pn:name="temporizador_TB.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1571772776" xil_pn:in_ck="-1960465492479765995" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="6590925041960135992" xil_pn:start_ts="1571772772">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="temporizador_TB_beh.prj"/>
+      <outfile xil_pn:name="temporizador_TB_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1572796950" xil_pn:in_ck="-1976219361799983260" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="7295281123956541829" xil_pn:start_ts="1572796950">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="temporizador_TB_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1571089526" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1571089526">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1571089526" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="5271833822231580293" xil_pn:start_ts="1571089526">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1571089526" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="4532155069190402091" xil_pn:start_ts="1571089526">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1571089526" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1571089526">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1571089526" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="6386863024522255043" xil_pn:start_ts="1571089526">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1571089526" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-3893270297158069842" xil_pn:start_ts="1571089526">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1571089526" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-9108074825624859723" xil_pn:start_ts="1571089526">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1571772598" xil_pn:in_ck="-1688833868734798032" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="4529914310358087592" xil_pn:start_ts="1571772590">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <status xil_pn:value="OutputRemoved"/>
+      <outfile xil_pn:name=".lso"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="temporizador.lso"/>
+      <outfile xil_pn:name="temporizador.ngc"/>
+      <outfile xil_pn:name="temporizador.ngr"/>
+      <outfile xil_pn:name="temporizador.prj"/>
+      <outfile xil_pn:name="temporizador.stx"/>
+      <outfile xil_pn:name="temporizador.syr"/>
+      <outfile xil_pn:name="temporizador.xst"/>
+      <outfile xil_pn:name="temporizador_TB_stx_beh.prj"/>
+      <outfile xil_pn:name="temporizador_vhdl.prj"/>
+      <outfile xil_pn:name="temporizador_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1571089531" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="7859411298436916632" xil_pn:start_ts="1571089531">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1571772604" xil_pn:in_ck="-1688833868734806778" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-7709544542545828168" xil_pn:start_ts="1571772598">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="temporizador.bld"/>
+      <outfile xil_pn:name="temporizador.ngd"/>
+      <outfile xil_pn:name="temporizador_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1571772608" xil_pn:in_ck="-1688833868734806777" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-5849673150125579957" xil_pn:start_ts="1571772604">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="temporizador.pcf"/>
+      <outfile xil_pn:name="temporizador_map.map"/>
+      <outfile xil_pn:name="temporizador_map.mrp"/>
+      <outfile xil_pn:name="temporizador_map.ncd"/>
+      <outfile xil_pn:name="temporizador_map.ngm"/>
+      <outfile xil_pn:name="temporizador_map.xrpt"/>
+      <outfile xil_pn:name="temporizador_summary.xml"/>
+      <outfile xil_pn:name="temporizador_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1571772624" xil_pn:in_ck="-5206126896846749792" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-5563652517805085498" xil_pn:start_ts="1571772608">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="temporizador.ncd"/>
+      <outfile xil_pn:name="temporizador.pad"/>
+      <outfile xil_pn:name="temporizador.par"/>
+      <outfile xil_pn:name="temporizador.ptwx"/>
+      <outfile xil_pn:name="temporizador.unroutes"/>
+      <outfile xil_pn:name="temporizador.xpi"/>
+      <outfile xil_pn:name="temporizador_pad.csv"/>
+      <outfile xil_pn:name="temporizador_pad.txt"/>
+      <outfile xil_pn:name="temporizador_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1571772624" xil_pn:in_ck="-1688833868734806909" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1571772621">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="temporizador.twr"/>
+      <outfile xil_pn:name="temporizador.twx"/>
+    </transform>
+  </transforms>
+
+</generated_project>

@@ -1,0 +1,2 @@
+vhdl isim_temp "importar_batman.vhd"
+vhdl isim_temp "importar_batman_tb.vhd"

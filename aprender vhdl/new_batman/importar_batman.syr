@@ -1,0 +1,248 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Reading design: importar_batman.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "importar_batman.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "importar_batman"
+Output Format                      : NGC
+Target Device                      : xc3s100e-5-vq100
+
+---- Source Options
+Top Module Name                    : importar_batman
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.vhd" in Library work.
+Entity <importar_batman> compiled.
+Entity <importar_batman> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <importar_batman> in library <work> (architecture <behavioral>) with generics.
+	ADDR_WIDTH = 15
+	COLUMNS = 100
+	DATA_WIDTH = 8
+	IMAGE_FILE_NAME = "rom.MIF"
+	M = "11111111"
+	ROWS = 100
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing generic Entity <importar_batman> in library <work> (Architecture <behavioral>).
+	ADDR_WIDTH = 15
+	COLUMNS = 100
+	DATA_WIDTH = 8
+	IMAGE_FILE_NAME = "rom.MIF"
+	M = "11111111"
+	ROWS = 100
+Entity <importar_batman> analyzed. Unit <importar_batman> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <importar_batman>.
+    Related source file is "C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.vhd".
+WARNING:Xst:647 - Input <wraddress> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <rdaddress> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <q> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <we> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:1781 - Signal <ram_block<9>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<99>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<98>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<97>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<96>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<95>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<94>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<93>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<92>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<91>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<90>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<8>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<89>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<88>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<87>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<86>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<85>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<84>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<83>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<82>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<81>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<80>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<7>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<79>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<78>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<77>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<76>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<75>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<74>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<73>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<72>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<71>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<70>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<6>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<69>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<68>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<67>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<66>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<65>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<64>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<63>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<62>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<61>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<60>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<5>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<59>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<58>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<57>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<56>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<55>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<54>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<53>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<52>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<51>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<50>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<4>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<49>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<48>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<47>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<46>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<45>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<44>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<43>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<42>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<41>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<40>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<3>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<39>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<38>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<37>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<36>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<35>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<34>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<33>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<32>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<31>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<30>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<2>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<29>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<28>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<27>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<26>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<25>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<24>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<23>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<22>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<21>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<20>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<1>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<19>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<18>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<17>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<16>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<15>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<14>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<13>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<12>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<11>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<10>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<100>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ram_block<0>> is used but never assigned. Tied to default value.

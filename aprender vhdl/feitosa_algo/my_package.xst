@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Dell/Documents/aprender vhdl/feitosa_algo/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Dell/Documents/aprender vhdl/feitosa_algo/xst"
+elaborate
+-ifn my_package.prj
+-ifmt mixed

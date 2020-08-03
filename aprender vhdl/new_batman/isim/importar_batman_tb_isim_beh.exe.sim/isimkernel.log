@@ -1,0 +1,28 @@
+Command line:
+   importar_batman_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  60833
+
+Mon Feb 17 15:34:59 2020
+
+
+ Elaboration Time: 28.7656 sec
+
+ Current Memory Usage: 13541.8 Meg
+
+ Total Signals          : 17
+ Total Nets             : 163266
+ Total Signal Drivers   : 10205
+ Total Blocks           : 10307
+ Total Primitive Blocks : 10204
+ Total Processes        : 10204
+ Total Traceable Variables  : 10322
+ Total Scalar Nets and Variables : 174071
+
+ Total Simulation Time: 30.5938 sec
+
+ Current Memory Usage: 13899 Meg
+
+Mon Feb 17 15:36:15 2020
+

@@ -1,0 +1,2 @@
+vhdl work "contadorsimples.vhd"
+vhdl work "contadorcomonolivro_tb.vhd"

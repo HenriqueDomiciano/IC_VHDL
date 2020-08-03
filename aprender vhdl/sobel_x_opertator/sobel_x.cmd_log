@@ -1,0 +1,105 @@
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-5 "sobel_x.ngc" sobel_x.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o sobel_x_map.ncd sobel_x.ngd sobel_x.pcf 
+par -w -intstyle ise -ol high -t 1 sobel_x_map.ncd sobel_x.ncd sobel_x.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sobel_x.twx sobel_x.ncd -o sobel_x.twr sobel_x.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-5 "sobel_x.ngc" sobel_x.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o sobel_x_map.ncd sobel_x.ngd sobel_x.pcf 
+par -w -intstyle ise -ol high -t 1 sobel_x_map.ncd sobel_x.ncd sobel_x.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sobel_x.twx sobel_x.ncd -o sobel_x.twr sobel_x.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-5 "sobel_x.ngc" sobel_x.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o sobel_x_map.ncd sobel_x.ngd sobel_x.pcf 
+par -w -intstyle ise -ol high -t 1 sobel_x_map.ncd sobel_x.ncd sobel_x.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sobel_x.twx sobel_x.ncd -o sobel_x.twr sobel_x.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-5 "sobel_x.ngc" sobel_x.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o sobel_x_map.ncd sobel_x.ngd sobel_x.pcf 
+par -w -intstyle ise -ol high -t 1 sobel_x_map.ncd sobel_x.ncd sobel_x.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sobel_x.twx sobel_x.ncd -o sobel_x.twr sobel_x.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-5 "sobel_x.ngc" sobel_x.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o sobel_x_map.ncd sobel_x.ngd sobel_x.pcf 
+par -w -intstyle ise -ol high -t 1 sobel_x_map.ncd sobel_x.ncd sobel_x.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sobel_x.twx sobel_x.ncd -o sobel_x.twr sobel_x.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-5 "sobel_x.ngc" sobel_x.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o sobel_x_map.ncd sobel_x.ngd sobel_x.pcf 
+par -w -intstyle ise -ol high -t 1 sobel_x_map.ncd sobel_x.ncd sobel_x.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sobel_x.twx sobel_x.ncd -o sobel_x.twr sobel_x.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-5 "sobel_x.ngc" sobel_x.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o sobel_x_map.ncd sobel_x.ngd sobel_x.pcf 
+par -w -intstyle ise -ol high -t 1 sobel_x_map.ncd sobel_x.ncd sobel_x.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sobel_x.twx sobel_x.ncd -o sobel_x.twr sobel_x.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-5 "sobel_x.ngc" sobel_x.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o sobel_x_map.ncd sobel_x.ngd sobel_x.pcf 
+par -w -intstyle ise -ol high -t 1 sobel_x_map.ncd sobel_x.ncd sobel_x.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sobel_x.twx sobel_x.ncd -o sobel_x.twr sobel_x.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-5 "sobel_x.ngc" sobel_x.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o sobel_x_map.ncd sobel_x.ngd sobel_x.pcf 
+par -w -intstyle ise -ol high -t 1 sobel_x_map.ncd sobel_x.ncd sobel_x.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sobel_x.twx sobel_x.ncd -o sobel_x.twr sobel_x.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-5 "sobel_x.ngc" sobel_x.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o sobel_x_map.ncd sobel_x.ngd sobel_x.pcf 
+par -w -intstyle ise -ol high -t 1 sobel_x_map.ncd sobel_x.ncd sobel_x.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sobel_x.twx sobel_x.ncd -o sobel_x.twr sobel_x.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.syr" 

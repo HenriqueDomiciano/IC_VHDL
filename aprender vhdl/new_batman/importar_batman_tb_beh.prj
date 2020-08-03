@@ -1,0 +1,2 @@
+vhdl work "importar_batman.vhd"
+vhdl work "importar_batman_tb.vhd"

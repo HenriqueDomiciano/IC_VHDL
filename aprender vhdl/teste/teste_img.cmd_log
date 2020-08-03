@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/teste/teste_img.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/teste/teste_img.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "teste_img.ngc" teste_img.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "teste_img.ngc" teste_img.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "teste_img.ngc" teste_img.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "teste_img.ngc" teste_img.ngd  

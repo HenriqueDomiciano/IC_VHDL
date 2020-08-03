@@ -1,0 +1,3 @@
+vhdl work "main.vhd"
+vhdl work "sobel_x.vhd"
+vhdl work "my_package.vhd"

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/reading_from_png/read_bmp_tb.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/reading_from_png/read_bmp_tb.syr" 

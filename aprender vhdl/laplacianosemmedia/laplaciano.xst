@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Dell/Documents/aprender vhdl/laplacianosemmedia/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Dell/Documents/aprender vhdl/laplacianosemmedia/xst"
+elaborate
+-ifn laplaciano.prj
+-ifmt mixed

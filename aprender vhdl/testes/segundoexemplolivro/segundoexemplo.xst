@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Dell/Documents/aprender vhdl/segundoexemplolivro/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Dell/Documents/aprender vhdl/segundoexemplolivro/xst"
+elaborate
+-ifn segundoexemplo.prj
+-ifmt mixed

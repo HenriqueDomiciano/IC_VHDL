@@ -1,0 +1,3 @@
+vhdl isim_temp "constants.vhd"
+vhdl isim_temp "contagemdezeros.vhd"
+vhdl isim_temp "contagemdezeros_tb.vhd"

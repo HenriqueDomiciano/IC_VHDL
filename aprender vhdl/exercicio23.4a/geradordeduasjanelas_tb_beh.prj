@@ -1,0 +1,2 @@
+vhdl work "geradordesinaisdeduasjanelas.vhd"
+vhdl work "geradordeduasjanelas_tb.vhd"

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Dell/Documents/aprender vhdl/creating_matrix_and_operating/teste_isim_beh.exe" -prj "C:/Users/Dell/Documents/aprender vhdl/creating_matrix_and_operating/teste_beh.prj" "work.teste" 

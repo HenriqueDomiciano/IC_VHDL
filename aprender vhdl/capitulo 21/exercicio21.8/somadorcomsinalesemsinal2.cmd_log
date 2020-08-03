@@ -1,0 +1,49 @@
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.8/somadorcomsinalesemsinal2.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.8/somadorcomsinalesemsinal2.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.8/somadorcomsinalesemsinal2.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.8/somadorcomsinalesemsinal2.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.8/somadorcomsinalesemsinal2.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.8/somadorcomsinalesemsinal2.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.8/somadorcomsinalesemsinal2.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.8/somadorcomsinalesemsinal2.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.8/somadorcomsinalesemsinal2.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.8/somadorcomsinalesemsinal2.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.8/somadorcomsinalesemsinal2.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.8/somadorcomsinalesemsinal2.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.8/somadorcomsinalesemsinal2.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.8/somadorcomsinalesemsinal2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "somadorcomsinalesemsinal2.ngc" somadorcomsinalesemsinal2.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o somadorcomsinalesemsinal2_map.ncd somadorcomsinalesemsinal2.ngd somadorcomsinalesemsinal2.pcf 
+par -w -intstyle ise -ol high -t 1 somadorcomsinalesemsinal2_map.ncd somadorcomsinalesemsinal2.ncd somadorcomsinalesemsinal2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml somadorcomsinalesemsinal2.twx somadorcomsinalesemsinal2.ncd -o somadorcomsinalesemsinal2.twr somadorcomsinalesemsinal2.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.8/somadorcomsinalesemsinal2.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.8/somadorcomsinalesemsinal2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "somadorcomsinalesemsinal2.ngc" somadorcomsinalesemsinal2.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o somadorcomsinalesemsinal2_map.ncd somadorcomsinalesemsinal2.ngd somadorcomsinalesemsinal2.pcf 
+par -w -intstyle ise -ol high -t 1 somadorcomsinalesemsinal2_map.ncd somadorcomsinalesemsinal2.ncd somadorcomsinalesemsinal2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml somadorcomsinalesemsinal2.twx somadorcomsinalesemsinal2.ncd -o somadorcomsinalesemsinal2.twr somadorcomsinalesemsinal2.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.8/somadorcomsinalesemsinal2.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.8/somadorcomsinalesemsinal2.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.8/somadorcomsinalesemsinal2.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.8/somadorcomsinalesemsinal2.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.8/somadorcomsinalesemsinal2.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.8/somadorcomsinalesemsinal2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "somadorcomsinalesemsinal2.ngc" somadorcomsinalesemsinal2.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o somadorcomsinalesemsinal2_map.ncd somadorcomsinalesemsinal2.ngd somadorcomsinalesemsinal2.pcf 
+par -w -intstyle ise -ol high -t 1 somadorcomsinalesemsinal2_map.ncd somadorcomsinalesemsinal2.ncd somadorcomsinalesemsinal2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml somadorcomsinalesemsinal2.twx somadorcomsinalesemsinal2.ncd -o somadorcomsinalesemsinal2.twr somadorcomsinalesemsinal2.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.8/somadorcomsinalesemsinal2.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.8/somadorcomsinalesemsinal2.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.8/somadorcomsinalesemsinal2.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.8/somadorcomsinalesemsinal2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "somadorcomsinalesemsinal2.ngc" somadorcomsinalesemsinal2.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o somadorcomsinalesemsinal2_map.ncd somadorcomsinalesemsinal2.ngd somadorcomsinalesemsinal2.pcf 
+par -w -intstyle ise -ol high -t 1 somadorcomsinalesemsinal2_map.ncd somadorcomsinalesemsinal2.ncd somadorcomsinalesemsinal2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml somadorcomsinalesemsinal2.twx somadorcomsinalesemsinal2.ncd -o somadorcomsinalesemsinal2.twr somadorcomsinalesemsinal2.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.8/somadorcomsinalesemsinal2.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.8/somadorcomsinalesemsinal2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "somadorcomsinalesemsinal2.ngc" somadorcomsinalesemsinal2.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o somadorcomsinalesemsinal2_map.ncd somadorcomsinalesemsinal2.ngd somadorcomsinalesemsinal2.pcf 
+par -w -intstyle ise -ol high -t 1 somadorcomsinalesemsinal2_map.ncd somadorcomsinalesemsinal2.ncd somadorcomsinalesemsinal2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml somadorcomsinalesemsinal2.twx somadorcomsinalesemsinal2.ncd -o somadorcomsinalesemsinal2.twr somadorcomsinalesemsinal2.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.8/somadorcomsinalesemsinal2.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.8/somadorcomsinalesemsinal2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "somadorcomsinalesemsinal2.ngc" somadorcomsinalesemsinal2.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o somadorcomsinalesemsinal2_map.ncd somadorcomsinalesemsinal2.ngd somadorcomsinalesemsinal2.pcf 
+par -w -intstyle ise -ol high -t 1 somadorcomsinalesemsinal2_map.ncd somadorcomsinalesemsinal2.ncd somadorcomsinalesemsinal2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml somadorcomsinalesemsinal2.twx somadorcomsinalesemsinal2.ncd -o somadorcomsinalesemsinal2.twr somadorcomsinalesemsinal2.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.8/somadorcomsinalesemsinal2.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.8/somadorcomsinalesemsinal2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "somadorcomsinalesemsinal2.ngc" somadorcomsinalesemsinal2.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o somadorcomsinalesemsinal2_map.ncd somadorcomsinalesemsinal2.ngd somadorcomsinalesemsinal2.pcf 
+par -w -intstyle ise -ol high -t 1 somadorcomsinalesemsinal2_map.ncd somadorcomsinalesemsinal2.ncd somadorcomsinalesemsinal2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml somadorcomsinalesemsinal2.twx somadorcomsinalesemsinal2.ncd -o somadorcomsinalesemsinal2.twr somadorcomsinalesemsinal2.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/capitulo 21/exercicio21.8/somadorcomsinalesemsinal2.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/capitulo 21/exercicio21.8/somadorcomsinalesemsinal2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "somadorcomsinalesemsinal2.ngc" somadorcomsinalesemsinal2.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o somadorcomsinalesemsinal2_map.ncd somadorcomsinalesemsinal2.ngd somadorcomsinalesemsinal2.pcf 
+par -w -intstyle ise -ol high -t 1 somadorcomsinalesemsinal2_map.ncd somadorcomsinalesemsinal2.ncd somadorcomsinalesemsinal2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml somadorcomsinalesemsinal2.twx somadorcomsinalesemsinal2.ncd -o somadorcomsinalesemsinal2.twr somadorcomsinalesemsinal2.pcf 

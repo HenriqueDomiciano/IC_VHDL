@@ -1,0 +1,336 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Reading design: hMMER.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "hMMER.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "hMMER"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : hMMER
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Dell/Documents/aprender vhdl/exercicio6.8/hMMER.vhd" in Library work.
+Entity <hmmer> compiled.
+Entity <hmmer> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <hMMER> in library <work> (architecture <behavioral>) with generics.
+	n = 12
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing generic Entity <hMMER> in library <work> (Architecture <behavioral>).
+	n = 12
+Entity <hMMER> analyzed. Unit <hMMER> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <hMMER>.
+    Related source file is "C:/Users/Dell/Documents/aprender vhdl/exercicio6.8/hMMER.vhd".
+    Found 4-bit adder for signal <NUMERO_INTERMEDIARIO$add0000> created at line 46.
+    Found 4-bit adder for signal <NUMERO_INTERMEDIARIO$addsub0000> created at line 46.
+    Found 4-bit adder for signal <NUMERO_INTERMEDIARIO$addsub0001> created at line 46.
+    Found 4-bit adder for signal <NUMERO_INTERMEDIARIO$addsub0002> created at line 46.
+    Found 4-bit adder for signal <NUMERO_INTERMEDIARIO$addsub0003> created at line 46.
+    Found 4-bit adder for signal <NUMERO_INTERMEDIARIO$addsub0004> created at line 46.
+    Found 4-bit adder for signal <NUMERO_INTERMEDIARIO$addsub0005> created at line 46.
+    Found 4-bit adder for signal <NUMERO_INTERMEDIARIO$addsub0006> created at line 46.
+    Found 4-bit adder for signal <NUMERO_INTERMEDIARIO$addsub0007> created at line 46.
+    Found 4-bit adder for signal <NUMERO_INTERMEDIARIO$addsub0008> created at line 46.
+    Found 4-bit adder for signal <NUMERO_INTERMEDIARIO$addsub0009> created at line 46.
+    Found 4-bit adder for signal <NUMERO_INTERMEDIARIO$addsub0010> created at line 46.
+    Summary:
+	inferred  12 Adder/Subtractor(s).
+Unit <hMMER> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 12
+ 4-bit adder                                           : 12
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 12
+ 4-bit adder                                           : 12
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2170 - Unit hMMER : the following signal(s) form a combinatorial loop: NUMERO_INTERMEDIARIO_addsub0010<3>, Madd_NUMERO_INTERMEDIARIO_addsub0006_lut<3>, Madd_NUMERO_INTERMEDIARIO_addsub0002_lut<3>, NUMERO_INTERMEDIARIO_addsub0003<3>, Madd_NUMERO_INTERMEDIARIO_addsub0010_lut<3>, NUMERO_INTERMEDIARIO_addsub0005<3>, NUMERO_INTERMEDIARIO_add0000<3>, NUMERO_INTERMEDIARIO_addsub0007<3>, Madd_NUMERO_INTERMEDIARIO_addsub0003_lut<3>, Madd_NUMERO_INTERMEDIARIO_addsub0009_lut<3>, Madd_NUMERO_INTERMEDIARIO_addsub0005_lut<3>, Madd_NUMERO_INTERMEDIARIO_addsub0008_lut<3>, Madd_NUMERO_INTERMEDIARIO_addsub0001_lut<3>, NUMERO_INTERMEDIARIO_addsub0009<3>, Madd_NUMERO_INTERMEDIARIO_addsub0004_lut<3>, NUMERO_INTERMEDIARIO_addsub0000<3>, Madd_NUMERO_INTERMEDIARIO_addsub0007_lut<3>, NUMERO_INTERMEDIARIO_addsub0001<3>, NUMERO_INTERMEDIARIO_addsub0004<3>, Madd_NUMERO_INTERMEDIARIO_addsub0000_lut<3>, Madd_NUMERO_INTERMEDIARIO_add0000_lut<3>, NUMERO_INTERMEDIARIO_addsub0008<3>, NUMERO_INTERMEDIARIO_addsub0002<3>, NUMERO_INTERMEDIARIO_addsub0006<3>.
+WARNING:Xst:2170 - Unit hMMER : the following signal(s) form a combinatorial loop: Madd_NUMERO_INTERMEDIARIO_addsub0008_lut<2>, Madd_NUMERO_INTERMEDIARIO_addsub0009_lut<2>, NUMERO_INTERMEDIARIO_add0000<2>, Madd_NUMERO_INTERMEDIARIO_addsub0005_lut<2>, NUMERO_INTERMEDIARIO_addsub0004<2>, NUMERO_INTERMEDIARIO_addsub0001<2>, Madd_NUMERO_INTERMEDIARIO_addsub0007_lut<2>, Madd_NUMERO_INTERMEDIARIO_addsub0006_lut<2>, NUMERO_INTERMEDIARIO_addsub0006<2>, Madd_NUMERO_INTERMEDIARIO_addsub0002_lut<2>, NUMERO_INTERMEDIARIO_addsub0002<2>, Madd_NUMERO_INTERMEDIARIO_addsub0001_lut<2>, Madd_NUMERO_INTERMEDIARIO_addsub0000_lut<2>, NUMERO_INTERMEDIARIO_addsub0010<2>, NUMERO_INTERMEDIARIO_addsub0009<2>, NUMERO_INTERMEDIARIO_addsub0008<2>, Madd_NUMERO_INTERMEDIARIO_addsub0010_lut<2>, NUMERO_INTERMEDIARIO_addsub0005<2>, Madd_NUMERO_INTERMEDIARIO_addsub0004_lut<2>, NUMERO_INTERMEDIARIO_addsub0007<2>, Madd_NUMERO_INTERMEDIARIO_addsub0003_lut<2>, NUMERO_INTERMEDIARIO_addsub0000<2>, NUMERO_INTERMEDIARIO_addsub0003<2>, Madd_NUMERO_INTERMEDIARIO_add0000_lut<2>.
+WARNING:Xst:2170 - Unit hMMER : the following signal(s) form a combinatorial loop: Madd_NUMERO_INTERMEDIARIO_addsub0009_lut<1>, Madd_NUMERO_INTERMEDIARIO_addsub0005_lut<1>, NUMERO_INTERMEDIARIO_addsub0005<1>, Madd_NUMERO_INTERMEDIARIO_addsub0007_lut<1>, NUMERO_INTERMEDIARIO_add0000<1>, NUMERO_INTERMEDIARIO_addsub0007<1>, Madd_NUMERO_INTERMEDIARIO_addsub0003_lut<1>, Madd_NUMERO_INTERMEDIARIO_addsub0004_lut<1>, NUMERO_INTERMEDIARIO_addsub0010<1>, NUMERO_INTERMEDIARIO_addsub0006<1>, NUMERO_INTERMEDIARIO_addsub0003<1>, NUMERO_INTERMEDIARIO_addsub0004<1>, Madd_NUMERO_INTERMEDIARIO_addsub0002_lut<1>, NUMERO_INTERMEDIARIO_addsub0008<1>, Madd_NUMERO_INTERMEDIARIO_addsub0010_lut<1>, NUMERO_INTERMEDIARIO_addsub0001<1>, NUMERO_INTERMEDIARIO_addsub0009<1>, Madd_NUMERO_INTERMEDIARIO_addsub0006_lut<1>, NUMERO_INTERMEDIARIO_addsub0002<1>, Madd_NUMERO_INTERMEDIARIO_addsub0000_lut<1>, Madd_NUMERO_INTERMEDIARIO_addsub0008_lut<1>, Madd_NUMERO_INTERMEDIARIO_addsub0001_lut<1>, NUMERO_INTERMEDIARIO_addsub0000<1>, Madd_NUMERO_INTERMEDIARIO_add0000_lut<1>.
+WARNING:Xst:2170 - Unit hMMER : the following signal(s) form a combinatorial loop: Madd_NUMERO_INTERMEDIARIO_addsub0003_cy<0>, Madd_NUMERO_INTERMEDIARIO_addsub0005_cy<0>, Madd_NUMERO_INTERMEDIARIO_addsub0000_cy<0>, Madd_NUMERO_INTERMEDIARIO_addsub0004_cy<0>, Madd_NUMERO_INTERMEDIARIO_addsub0010_cy<0>, Madd_NUMERO_INTERMEDIARIO_addsub0006_cy<0>, Madd_NUMERO_INTERMEDIARIO_addsub0008_cy<0>, Madd_NUMERO_INTERMEDIARIO_addsub0009_cy<0>, Madd_NUMERO_INTERMEDIARIO_add0000_cy<0>, Madd_NUMERO_INTERMEDIARIO_addsub0002_cy<0>, Madd_NUMERO_INTERMEDIARIO_addsub0007_cy<0>, Madd_NUMERO_INTERMEDIARIO_addsub0001_cy<0>.
+
+Optimizing unit <hMMER> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block hMMER, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : hMMER.ngr
+Top Level Output File Name         : hMMER
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 44
+
+Cell Usage :
+# BELS                             : 57
+#      GND                         : 1
+#      LUT2                        : 6
+#      LUT3                        : 11
+#      LUT4                        : 32
+#      MUXF5                       : 7
+# IO Buffers                       : 44
+#      IBUF                        : 12
+#      OBUF                        : 32
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                       27  out of   4656     0%  
+ Number of 4 input LUTs:                 49  out of   9312     0%  
+ Number of IOs:                          44
+ Number of bonded IOBs:                  44  out of    232    18%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 37.580ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 19402 / 4
+-------------------------------------------------------------------------
+Delay:               37.580ns (Levels of Logic = 28)
+  Source:            VECTOR<5> (PAD)
+  Destination:       NUMBER<3> (PAD)
+
+  Data Path: VECTOR<5> to NUMBER<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             5   1.218   0.712  VECTOR_5_IBUF (VECTOR_5_IBUF)
+     LUT4:I1->O            5   0.704   0.808  NUMERO_INTERMEDIARIO_mux0008<0>1 (Madd_NUMERO_INTERMEDIARIO_addsub0010_cy<0>)
+     LUT3:I0->O            9   0.704   0.995  NUMERO_INTERMEDIARIO_mux0010<0>1 (Madd_NUMERO_INTERMEDIARIO_addsub0006_cy<0>)
+     LUT4:I0->O            7   0.704   0.883  NUMERO_INTERMEDIARIO_mux0000<0>1 (Madd_NUMERO_INTERMEDIARIO_addsub0000_cy<0>)
+     LUT3:I0->O            6   0.704   0.844  NUMERO_INTERMEDIARIO_mux0003<0>1 (Madd_NUMERO_INTERMEDIARIO_addsub0002_cy<0>)
+     LUT3:I0->O            5   0.704   0.712  NUMERO_INTERMEDIARIO_mux0005<0>1 (Madd_NUMERO_INTERMEDIARIO_addsub0005_cy<0>)
+     LUT4:I1->O            1   0.704   0.000  NUMERO_INTERMEDIARIO_mux0008<1>13 (NUMERO_INTERMEDIARIO_mux0008<1>11)
+     MUXF5:I0->O           6   0.321   0.844  NUMERO_INTERMEDIARIO_mux0008<1>1_f5 (Madd_NUMERO_INTERMEDIARIO_addsub0010_lut<1>)
+     LUT2:I0->O            8   0.704   0.932  NUMERO_INTERMEDIARIO_mux0010<1>1 (Madd_NUMERO_INTERMEDIARIO_addsub0006_lut<1>)
+     LUT4:I0->O            1   0.704   0.000  NUMERO_INTERMEDIARIO_mux0000<1>21 (NUMERO_INTERMEDIARIO_mux0000<1>2)
+     MUXF5:I1->O           6   0.321   0.844  NUMERO_INTERMEDIARIO_mux0000<1>2_f5 (Madd_NUMERO_INTERMEDIARIO_addsub0000_lut<1>)
+     LUT4:I0->O            4   0.704   0.762  NUMERO_INTERMEDIARIO_mux0003<1>1 (Madd_NUMERO_INTERMEDIARIO_addsub0002_lut<1>)
+     LUT4:I0->O            4   0.704   0.666  NUMERO_INTERMEDIARIO_mux0005<1>1 (Madd_NUMERO_INTERMEDIARIO_addsub0005_lut<1>)
+     LUT4:I1->O            1   0.704   0.000  NUMERO_INTERMEDIARIO_mux0008<3>2_G (N46)
+     MUXF5:I1->O           4   0.321   0.666  NUMERO_INTERMEDIARIO_mux0008<3>2 (N15)
+     LUT2:I1->O            3   0.704   0.531  NUMERO_INTERMEDIARIO_mux0008<2>1 (Madd_NUMERO_INTERMEDIARIO_addsub0010_lut<2>)
+     MUXF5:S->O            5   0.739   0.808  NUMERO_INTERMEDIARIO_mux0010<2>_f5 (Madd_NUMERO_INTERMEDIARIO_addsub0006_lut<2>)
+     LUT2:I0->O            4   0.704   0.762  NUMERO_INTERMEDIARIO_mux0000<2>2 (Madd_NUMERO_INTERMEDIARIO_addsub0000_lut<2>)
+     LUT4:I0->O            1   0.704   0.000  NUMERO_INTERMEDIARIO_mux0003<2>1 (NUMERO_INTERMEDIARIO_mux0003<2>)
+     MUXF5:I1->O           4   0.321   0.666  NUMERO_INTERMEDIARIO_mux0003<2>_f5 (Madd_NUMERO_INTERMEDIARIO_addsub0002_lut<2>)
+     LUT4:I1->O            1   0.704   0.455  NUMERO_INTERMEDIARIO_mux0004<3>_SW0 (N41)
+     LUT4:I2->O            1   0.704   0.595  NUMERO_INTERMEDIARIO_mux0004<3> (Madd_NUMERO_INTERMEDIARIO_addsub0003_lut<3>)
+     LUT3:I0->O            3   0.704   0.566  NUMERO_INTERMEDIARIO_mux0008<3>11 (N0)
+     LUT3:I2->O            1   0.704   0.595  NUMERO_INTERMEDIARIO_mux0009<3>5 (NUMERO_INTERMEDIARIO_mux0009<3>5)
+     LUT4:I0->O            1   0.704   0.595  NUMERO_INTERMEDIARIO_mux0009<3>98 (Madd_NUMERO_INTERMEDIARIO_addsub0004_lut<3>)
+     LUT3:I0->O            1   0.704   0.595  NUMERO_INTERMEDIARIO_mux0012<3>11 (N11)
+     LUT4:I0->O            2   0.704   0.447  NUMERO_INTERMEDIARIO_mux0012<3> (Madd_NUMERO_INTERMEDIARIO_add0000_lut<3>)
+     OBUF:I->O                 3.272          NUMBER_3_OBUF (NUMBER<3>)
+    ----------------------------------------
+    Total                     37.580ns (21.297ns logic, 16.283ns route)
+                                       (56.7% logic, 43.3% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.60 secs
+ 
+--> 
+
+Total memory usage is 4536472 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    4 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

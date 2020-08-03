@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio20.8/prioridade.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio20.8/prioridade.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio20.8/prioridade.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio20.8/prioridade.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "prioridade.ngc" prioridade.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o prioridade_map.ncd prioridade.ngd prioridade.pcf 
+par -w -intstyle ise -ol high -t 1 prioridade_map.ncd prioridade.ncd prioridade.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml prioridade.twx prioridade.ncd -o prioridade.twr prioridade.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio20.8/prioridade.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio20.8/prioridade.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio20.8/prioridade.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio20.8/prioridade.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "prioridade.ngc" prioridade.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o prioridade_map.ncd prioridade.ngd prioridade.pcf 
+par -w -intstyle ise -ol high -t 1 prioridade_map.ncd prioridade.ncd prioridade.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml prioridade.twx prioridade.ncd -o prioridade.twr prioridade.pcf 

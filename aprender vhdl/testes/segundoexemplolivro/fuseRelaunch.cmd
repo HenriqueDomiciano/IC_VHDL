@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Dell/Documents/aprender vhdl/segundoexemplolivro/segundoexemplolivro_TB_isim_beh.exe" -prj "C:/Users/Dell/Documents/aprender vhdl/segundoexemplolivro/segundoexemplolivro_TB_beh.prj" "segundoexemplolivro_TB" 

@@ -1,0 +1,133 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Dell/Downloads/read_bmp
+Eimportar_batman
+Z0 w1581964876
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dC:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator
+Z5 8C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.vhd
+Z6 FC:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.vhd
+l0
+L7
+VQLG<o2iM:LgOWSgmB]YUn1
+!s100 HW0:N1J`oBBiWZVIQ1<fj3
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1581967577
+!i10b 1
+Z9 !s108 1581967576.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.vhd|
+Z11 !s107 C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R1
+R2
+R3
+DEx4 work 15 importar_batman 0 22 QLG<o2iM:LgOWSgmB]YUn1
+l55
+L27
+VZg@kV_dRfCO>`Fbd_46hV3
+!s100 bkn1;FeK;?XJW@6>CeUnC3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Elaplaciano
+Z14 w1582296677
+R1
+R2
+R3
+R4
+Z15 8C:/Users/Dell/Documents/aprender vhdl/laplacian_filter/laplaciano.vhd
+Z16 FC:/Users/Dell/Documents/aprender vhdl/laplacian_filter/laplaciano.vhd
+l0
+L29
+V<JeE[bYU[^XB0M=Z`8^8N3
+!s100 dAJ=@1l3GA7l`Q=laJFP<3
+R7
+32
+Z17 !s110 1582296900
+!i10b 1
+Z18 !s108 1582296899.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Dell/Documents/aprender vhdl/laplacian_filter/laplaciano.vhd|
+Z20 !s107 C:/Users/Dell/Documents/aprender vhdl/laplacian_filter/laplaciano.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+Z21 DEx4 work 10 laplaciano 0 22 <JeE[bYU[^XB0M=Z`8^8N3
+l73
+L46
+Z22 V=@i33ZJ^`ZQ;oGR0ca1ZX3
+Z23 !s100 8Tj>YY2GNA5=2aJ=T:WU@0
+R7
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R12
+R13
+Esobel_x
+Z24 w1582127490
+R1
+R2
+R3
+R4
+Z25 8C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.vhd
+Z26 FC:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.vhd
+l0
+L7
+VCS5S3>NMkcA@9=W^HJEZk0
+!s100 <X8W4ESFfcdH`Yj`J:Waz1
+R7
+32
+Z27 !s110 1582127563
+!i10b 1
+Z28 !s108 1582127562.000000
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.vhd|
+Z30 !s107 C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+DEx4 work 7 sobel_x 0 22 CS5S3>NMkcA@9=W^HJEZk0
+l57
+L31
+VMQb33;8VYiJX]iY2Nibe:0
+!s100 ZgQ:hegMId@Y6P6aL4PK`0
+R7
+32
+R27
+!i10b 1
+R28
+R29
+R30
+!i113 1
+R12
+R13

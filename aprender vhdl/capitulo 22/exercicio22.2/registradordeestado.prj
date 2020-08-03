@@ -1,0 +1,4 @@
+vhdl work "my_package.vhd"
+vhdl work "multiplexer.vhd"
+vhdl work "ffbank.vhd"
+vhdl work "registradordeestado.vhd"

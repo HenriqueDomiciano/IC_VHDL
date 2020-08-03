@@ -1,0 +1,8 @@
+V3 4
+EN work/read_bmp_tb 0 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/reading_from_png/reading_bmp.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB std/TEXTIO 1381692176 PH std/env 0
+AR work/read_bmp_tb/sim 0 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/reading_from_png/reading_bmp.vhd" \
+      EN work/read_bmp_tb 0 AR work/grayscale/rtl 0

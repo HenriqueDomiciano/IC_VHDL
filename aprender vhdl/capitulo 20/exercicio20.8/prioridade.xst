@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Dell/Documents/aprender vhdl/exercicio20.8/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Dell/Documents/aprender vhdl/exercicio20.8/xst"
+elaborate
+-ifn prioridade.prj
+-ifmt mixed

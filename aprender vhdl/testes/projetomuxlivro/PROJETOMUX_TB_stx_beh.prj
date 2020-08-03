@@ -1,0 +1,2 @@
+vhdl isim_temp "projetomux.vhd"
+vhdl isim_temp "projetomux_tb.vhd"

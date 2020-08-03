@@ -1,0 +1,2 @@
+vhdl isim_temp "hammer.vhd"
+vhdl isim_temp "hemmer_TB.vhd"

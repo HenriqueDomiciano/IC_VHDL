@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Dell\Documents\aprender vhdl\projetomuxlivro\projetomux.ncd
+OUTFILE=C:\Users\Dell\Documents\aprender vhdl\projetomuxlivro\projetomux.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=C:\Users\Dell\Documents\aprender vhdl\projetomuxlivro
+LICENSE=WebPack
+USER_INFO=211777786_0_0_726

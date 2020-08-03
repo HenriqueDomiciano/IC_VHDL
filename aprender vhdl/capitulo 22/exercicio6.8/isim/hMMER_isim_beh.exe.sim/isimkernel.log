@@ -1,0 +1,28 @@
+Command line:
+   hMMER_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  53344
+
+Mon Oct 14 18:55:13 2019
+
+
+ Elaboration Time: 0.1875 sec
+
+ Current Memory Usage: 5829.96 Meg
+
+ Total Signals          : 2
+ Total Nets             : 13
+ Total Signal Drivers   : 1
+ Total Blocks           : 3
+ Total Primitive Blocks : 3
+ Total Processes        : 1
+ Total Traceable Variables  : 14
+ Total Scalar Nets and Variables : 497
+
+ Total Simulation Time: 0.203125 sec
+
+ Current Memory Usage: 5829.96 Meg
+
+Mon Oct 14 18:55:34 2019
+

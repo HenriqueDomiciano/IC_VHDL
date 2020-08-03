@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Dell/Documents/aprender vhdl/capitulo 20/exercicio20.7/detectordeparidade_tb_isim_beh.exe" -prj "C:/Users/Dell/Documents/aprender vhdl/capitulo 20/exercicio20.7/detectordeparidade_tb_beh.prj" "work.detectordeparidade_tb" 

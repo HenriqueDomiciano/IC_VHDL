@@ -1,0 +1,5 @@
+vhdl work "new_packaage.vhd"
+vhdl work "threshold.vhd"
+vhdl work "subtract.vhd"
+vhdl work "median_filter.vhd"
+vhdl work "blob_1.vhd"

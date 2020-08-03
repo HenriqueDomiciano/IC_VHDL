@@ -1,0 +1,28 @@
+Command line:
+   hammer_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  53348
+
+Mon Oct 14 18:57:00 2019
+
+
+ Elaboration Time: 0.265625 sec
+
+ Current Memory Usage: 5829.96 Meg
+
+ Total Signals          : 4
+ Total Nets             : 13
+ Total Signal Drivers   : 1
+ Total Blocks           : 4
+ Total Primitive Blocks : 3
+ Total Processes        : 2
+ Total Traceable Variables  : 14
+ Total Scalar Nets and Variables : 497
+
+ Total Simulation Time: 0.296875 sec
+
+ Current Memory Usage: 4728.92 Meg
+
+Mon Oct 14 19:32:19 2019
+

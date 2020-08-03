@@ -1,0 +1,331 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Reading design: hammer.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "hammer.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "hammer"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : hammer
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Dell/Documents/aprender vhdl/exercicio6.8/hammer.vhd" in Library work.
+Architecture behavioral of Entity hammer is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <hammer> in library <work> (architecture <behavioral>) with generics.
+	n = 12
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing generic Entity <hammer> in library <work> (Architecture <behavioral>).
+	n = 12
+Entity <hammer> analyzed. Unit <hammer> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <hammer>.
+    Related source file is "C:/Users/Dell/Documents/aprender vhdl/exercicio6.8/hammer.vhd".
+    Found 4-bit adder for signal <contagem$add0000> created at line 45.
+    Found 4-bit adder for signal <contagem$addsub0000> created at line 45.
+    Found 4-bit adder for signal <contagem$addsub0001> created at line 45.
+    Found 4-bit adder for signal <contagem$addsub0002> created at line 45.
+    Found 4-bit adder for signal <contagem$addsub0003> created at line 45.
+    Found 4-bit adder for signal <contagem$addsub0004> created at line 45.
+    Found 4-bit adder for signal <contagem$addsub0005> created at line 45.
+    Found 4-bit adder for signal <contagem$addsub0006> created at line 45.
+    Found 4-bit adder for signal <contagem$addsub0007> created at line 45.
+    Found 4-bit adder for signal <contagem$addsub0008> created at line 45.
+    Found 4-bit adder for signal <contagem$addsub0009> created at line 45.
+    Found 4-bit adder for signal <contagem$addsub0010> created at line 45.
+    Summary:
+	inferred  12 Adder/Subtractor(s).
+Unit <hammer> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 12
+ 4-bit adder                                           : 12
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 12
+ 4-bit adder                                           : 12
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2170 - Unit hammer : the following signal(s) form a combinatorial loop: Madd_contagem_addsub0003_lut<3>, contagem_addsub0004<3>, contagem_addsub0005<3>, contagem_addsub0002<3>, contagem_addsub0008<3>, contagem_addsub0007<3>, Madd_contagem_add0000_lut<3>, contagem_addsub0003<3>, Madd_contagem_addsub0000_lut<3>, contagem_addsub0010<3>, contagem_addsub0006<3>, Madd_contagem_addsub0001_lut<3>, Madd_contagem_addsub0002_lut<3>, contagem_addsub0009<3>, Madd_contagem_addsub0004_lut<3>, Madd_contagem_addsub0006_lut<3>, Madd_contagem_addsub0008_lut<3>, Madd_contagem_addsub0010_lut<3>, contagem_addsub0000<3>, Madd_contagem_addsub0007_lut<3>, Madd_contagem_addsub0009_lut<3>, Madd_contagem_addsub0005_lut<3>, contagem_add0000<3>, contagem_addsub0001<3>.
+WARNING:Xst:2170 - Unit hammer : the following signal(s) form a combinatorial loop: contagem_addsub0002<2>, contagem_addsub0001<2>, Madd_contagem_addsub0001_lut<2>, contagem_addsub0000<2>, Madd_contagem_addsub0010_lut<2>, Madd_contagem_addsub0002_lut<2>, contagem_addsub0008<2>, Madd_contagem_addsub0004_lut<2>, Madd_contagem_add0000_lut<2>, Madd_contagem_addsub0006_lut<2>, Madd_contagem_addsub0008_lut<2>, contagem_addsub0007<2>, Madd_contagem_addsub0009_lut<2>, contagem_addsub0006<2>, contagem_addsub0003<2>, Madd_contagem_addsub0003_lut<2>, contagem_add0000<2>, Madd_contagem_addsub0007_lut<2>, contagem_addsub0009<2>, Madd_contagem_addsub0005_lut<2>, contagem_addsub0004<2>, contagem_addsub0010<2>, Madd_contagem_addsub0000_lut<2>, contagem_addsub0005<2>.
+WARNING:Xst:2170 - Unit hammer : the following signal(s) form a combinatorial loop: Madd_contagem_addsub0009_lut<1>, contagem_addsub0001<1>, contagem_addsub0004<1>, contagem_addsub0010<1>, Madd_contagem_addsub0003_lut<1>, Madd_contagem_add0000_lut<1>, contagem_addsub0005<1>, contagem_add0000<1>, Madd_contagem_addsub0001_lut<1>, contagem_addsub0006<1>, contagem_addsub0009<1>, Madd_contagem_addsub0007_lut<1>, contagem_addsub0008<1>, Madd_contagem_addsub0008_lut<1>, Madd_contagem_addsub0004_lut<1>, Madd_contagem_addsub0002_lut<1>, contagem_addsub0003<1>, Madd_contagem_addsub0006_lut<1>, contagem_addsub0002<1>, contagem_addsub0007<1>, Madd_contagem_addsub0005_lut<1>, contagem_addsub0000<1>, Madd_contagem_addsub0010_lut<1>, Madd_contagem_addsub0000_lut<1>.
+WARNING:Xst:2170 - Unit hammer : the following signal(s) form a combinatorial loop: Madd_contagem_addsub0009_cy<0>, Madd_contagem_addsub0002_cy<0>, Madd_contagem_add0000_cy<0>, Madd_contagem_addsub0003_cy<0>, Madd_contagem_addsub0010_cy<0>, Madd_contagem_addsub0000_cy<0>, Madd_contagem_addsub0005_cy<0>, Madd_contagem_addsub0004_cy<0>, Madd_contagem_addsub0001_cy<0>, Madd_contagem_addsub0006_cy<0>, Madd_contagem_addsub0008_cy<0>, Madd_contagem_addsub0007_cy<0>.
+
+Optimizing unit <hammer> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block hammer, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : hammer.ngr
+Top Level Output File Name         : hammer
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 44
+
+Cell Usage :
+# BELS                             : 51
+#      GND                         : 1
+#      LUT2                        : 7
+#      LUT3                        : 14
+#      LUT4                        : 26
+#      MUXF5                       : 3
+# IO Buffers                       : 44
+#      IBUF                        : 12
+#      OBUF                        : 32
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                       26  out of   4656     0%  
+ Number of 4 input LUTs:                 47  out of   9312     0%  
+ Number of IOs:                          44
+ Number of bonded IOBs:                  44  out of    232    18%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 31.517ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 5695 / 4
+-------------------------------------------------------------------------
+Delay:               31.517ns (Levels of Logic = 24)
+  Source:            entrada<1> (PAD)
+  Destination:       weight<3> (PAD)
+
+  Data Path: entrada<1> to weight<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             9   1.218   0.899  entrada_1_IBUF (entrada_1_IBUF)
+     LUT4:I1->O            5   0.704   0.668  contagem_mux0000<0>1 (Madd_contagem_addsub0000_cy<0>)
+     LUT3:I2->O            4   0.704   0.666  contagem_mux0003<0>1 (Madd_contagem_addsub0002_cy<0>)
+     LUT2:I1->O            2   0.704   0.482  contagem_mux0005<2>21 (N61)
+     LUT4:I2->O            4   0.704   0.591  contagem_mux0005<0>1 (Madd_contagem_addsub0005_cy<0>)
+     LUT4:I3->O            4   0.704   0.622  contagem_mux0008<0>1 (Madd_contagem_addsub0010_cy<0>)
+     LUT3:I2->O            9   0.704   0.824  contagem_mux0010<0>1 (Madd_contagem_addsub0006_cy<0>)
+     LUT4:I3->O            1   0.704   0.000  contagem_mux0000<1>21 (contagem_mux0000<1>2)
+     MUXF5:I1->O           6   0.321   0.844  contagem_mux0000<1>2_f5 (Madd_contagem_addsub0000_lut<1>)
+     LUT2:I0->O            4   0.704   0.762  contagem_mux0003<1>1 (Madd_contagem_addsub0002_lut<1>)
+     LUT3:I0->O            4   0.704   0.762  contagem_mux0008<1>1 (Madd_contagem_addsub0010_lut<1>)
+     LUT2:I0->O            7   0.704   0.787  contagem_mux0010<1>1 (Madd_contagem_addsub0006_lut<1>)
+     LUT4:I1->O            1   0.704   0.000  contagem_mux0000<2>146_G (N39)
+     MUXF5:I1->O           1   0.321   0.499  contagem_mux0000<2>146 (N5)
+     LUT2:I1->O            4   0.704   0.622  contagem_mux0000<2>2 (Madd_contagem_addsub0000_lut<2>)
+     LUT4:I2->O            1   0.704   0.595  Madd_contagem_addsub0001_cy<2>11 (Madd_contagem_addsub0001_cy<2>)
+     LUT3:I0->O            1   0.704   0.595  contagem_mux0004<3>11 (N3)
+     LUT4:I0->O            2   0.704   0.526  contagem_mux0004<3>1 (Madd_contagem_addsub0003_lut<3>)
+     LUT3:I1->O            1   0.704   0.000  contagem_mux0008<3>12 (contagem_mux0008<3>1)
+     MUXF5:I1->O           1   0.321   0.499  contagem_mux0008<3>1_f5 (Madd_contagem_addsub0010_lut<3>)
+     LUT4:I1->O            1   0.704   0.499  contagem_mux0009<3> (Madd_contagem_addsub0004_lut<3>)
+     LUT3:I1->O            1   0.704   0.499  contagem_mux0012<3>11 (N11)
+     LUT4:I1->O            2   0.704   0.447  contagem_mux0012<3> (Madd_contagem_add0000_lut<3>)
+     OBUF:I->O                 3.272          weight_3_OBUF (weight<3>)
+    ----------------------------------------
+    Total                     31.517ns (18.829ns logic, 12.688ns route)
+                                       (59.7% logic, 40.3% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.42 secs
+ 
+--> 
+
+Total memory usage is 4536556 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    4 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

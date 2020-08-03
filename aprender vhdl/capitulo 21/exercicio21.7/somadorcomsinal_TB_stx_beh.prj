@@ -1,0 +1,2 @@
+vhdl isim_temp "somadorcomsinalesemsinal.vhd"
+vhdl isim_temp "somadorcomsinal_TB.vhd"

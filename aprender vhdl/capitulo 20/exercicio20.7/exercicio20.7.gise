@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="exercicio20.7.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="detectordeparidade.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="detectordeparidade.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="detectordeparidade.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="detectordeparidade.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="detectordeparidade.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="detectordeparidade.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="detectordeparidade.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="detectordeparidade.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="detectordeparidade.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="detectordeparidade.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="detectordeparidade.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="detectordeparidade.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="detectordeparidade.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="detectordeparidade.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="detectordeparidade.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="detectordeparidade.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="detectordeparidade.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="detectordeparidade.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="detectordeparidade.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="detectordeparidade_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="detectordeparidade_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="detectordeparidade_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="detectordeparidade_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="detectordeparidade_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="detectordeparidade_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="detectordeparidade_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="detectordeparidade_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="detectordeparidade_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="detectordeparidade_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="detectordeparidade_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="detectordeparidade_par.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="detectordeparidade_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="detectordeparidade_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="detectordeparidade_summary.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="detectordeparidade_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="detectordeparidade_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="detectordeparidade_tb_isim_beh.wdb"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="detectordeparidade_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="detectordeparidade_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="detectordeparidade_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="detectordeparidade_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1567454287" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1567454287">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1572466431" xil_pn:in_ck="-2448667293859099249" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1572466431">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="detectordeparidade.vhd"/>
+      <outfile xil_pn:name="detectordeparidade_tb.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1567625816" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-680540580507997528" xil_pn:start_ts="1567625816">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1567625816" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="6234417046331454122" xil_pn:start_ts="1567625816">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1567454287" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="716923774389921515" xil_pn:start_ts="1567454287">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1572466431" xil_pn:in_ck="-2448667293859099249" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1572466431">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="detectordeparidade.vhd"/>
+      <outfile xil_pn:name="detectordeparidade_tb.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1572466435" xil_pn:in_ck="-2448667293859099249" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-3066665522452149966" xil_pn:start_ts="1572466431">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="detectordeparidade_tb_beh.prj"/>
+      <outfile xil_pn:name="detectordeparidade_tb_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1572466435" xil_pn:in_ck="-9057221850064126323" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="7225356029800091807" xil_pn:start_ts="1572466435">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="detectordeparidade_tb_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1567625795" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1567625795">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1567625795" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="4274971759935897634" xil_pn:start_ts="1567625795">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1567625795" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="716923774389921515" xil_pn:start_ts="1567625795">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1567625795" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1567625795">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1567625795" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-4461494333795007776" xil_pn:start_ts="1567625795">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1567625795" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="2988080280822507185" xil_pn:start_ts="1567625795">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1567625795" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="6995644446325309941" xil_pn:start_ts="1567625795">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1572466401" xil_pn:in_ck="7741822497077852173" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="2135244626609715400" xil_pn:start_ts="1572466393">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name=".lso"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="detectordeparidade.lso"/>
+      <outfile xil_pn:name="detectordeparidade.ngc"/>
+      <outfile xil_pn:name="detectordeparidade.ngr"/>
+      <outfile xil_pn:name="detectordeparidade.prj"/>
+      <outfile xil_pn:name="detectordeparidade.stx"/>
+      <outfile xil_pn:name="detectordeparidade.syr"/>
+      <outfile xil_pn:name="detectordeparidade.xst"/>
+      <outfile xil_pn:name="detectordeparidade_stx_beh.prj"/>
+      <outfile xil_pn:name="detectordeparidade_tb_beh.prj"/>
+      <outfile xil_pn:name="detectordeparidade_tb_stx_beh.prj"/>
+      <outfile xil_pn:name="detectordeparidade_vhdl.prj"/>
+      <outfile xil_pn:name="detectordeparidade_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1567454004" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-1525769409201653995" xil_pn:start_ts="1567454004">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1572466407" xil_pn:in_ck="7741822497077843427" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="166972430386923832" xil_pn:start_ts="1572466401">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="detectordeparidade.bld"/>
+      <outfile xil_pn:name="detectordeparidade.ngd"/>
+      <outfile xil_pn:name="detectordeparidade_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1572466413" xil_pn:in_ck="7741822497077843428" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-1303429204059397298" xil_pn:start_ts="1572466407">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="detectordeparidade.pcf"/>
+      <outfile xil_pn:name="detectordeparidade_map.map"/>
+      <outfile xil_pn:name="detectordeparidade_map.mrp"/>
+      <outfile xil_pn:name="detectordeparidade_map.ncd"/>
+      <outfile xil_pn:name="detectordeparidade_map.ngm"/>
+      <outfile xil_pn:name="detectordeparidade_map.xrpt"/>
+      <outfile xil_pn:name="detectordeparidade_summary.xml"/>
+      <outfile xil_pn:name="detectordeparidade_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1572466422" xil_pn:in_ck="5544400937885955837" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="1934304854298957634" xil_pn:start_ts="1572466413">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="detectordeparidade.ncd"/>
+      <outfile xil_pn:name="detectordeparidade.pad"/>
+      <outfile xil_pn:name="detectordeparidade.par"/>
+      <outfile xil_pn:name="detectordeparidade.ptwx"/>
+      <outfile xil_pn:name="detectordeparidade.unroutes"/>
+      <outfile xil_pn:name="detectordeparidade.xpi"/>
+      <outfile xil_pn:name="detectordeparidade_pad.csv"/>
+      <outfile xil_pn:name="detectordeparidade_pad.txt"/>
+      <outfile xil_pn:name="detectordeparidade_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1572466422" xil_pn:in_ck="7741822497077843296" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1572466419">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="detectordeparidade.twr"/>
+      <outfile xil_pn:name="detectordeparidade.twx"/>
+    </transform>
+  </transforms>
+
+</generated_project>

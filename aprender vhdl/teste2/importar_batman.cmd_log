@@ -1,0 +1,10 @@
+xst -intstyle ise -filter "C:/Users/Dell/Documents/aprender vhdl/teste2/iseconfig/filter.filter" -ifn "C:/Users/Dell/Documents/aprender vhdl/teste2/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/teste2/importar_batman.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "importar_batman.ngc" importar_batman.ngd  
+map -filter "C:/Users/Dell/Documents/aprender vhdl/teste2/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o importar_batman_map.ncd importar_batman.ngd importar_batman.pcf 
+par -filter "C:/Users/Dell/Documents/aprender vhdl/teste2/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 importar_batman_map.ncd importar_batman.ncd importar_batman.pcf 
+trce -filter {C:/Users/Dell/Documents/aprender vhdl/teste2/iseconfig/filter.filter} -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml importar_batman.twx importar_batman.ncd -o importar_batman.twr importar_batman.pcf 
+xst -intstyle ise -filter "C:/Users/Dell/Documents/aprender vhdl/teste2/iseconfig/filter.filter" -ifn "C:/Users/Dell/Documents/aprender vhdl/teste2/importar_batman.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/teste2/importar_batman.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "importar_batman.ngc" importar_batman.ngd  
+map -filter "C:/Users/Dell/Documents/aprender vhdl/teste2/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o importar_batman_map.ncd importar_batman.ngd importar_batman.pcf 
+par -filter "C:/Users/Dell/Documents/aprender vhdl/teste2/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 importar_batman_map.ncd importar_batman.ncd importar_batman.pcf 
+trce -filter {C:/Users/Dell/Documents/aprender vhdl/teste2/iseconfig/filter.filter} -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml importar_batman.twx importar_batman.ncd -o importar_batman.twr importar_batman.pcf 

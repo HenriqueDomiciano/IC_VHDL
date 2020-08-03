@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="exercicio20.4.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="codificadordeprioridade.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="codificadordeprioridade.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="codificadordeprioridade.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="codificadordeprioridade.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="codificadordeprioridade.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="codificadordeprioridade.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="codificadordeprioridade.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="codificadordeprioridade.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="codificadordeprioridade.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="codificadordeprioridade.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="codificadordeprioridade.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="codificadordeprioridade.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="codificadordeprioridade.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="codificadordeprioridade.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="codificadordeprioridade.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="codificadordeprioridade.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="codificadordeprioridade.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="codificadordeprioridade.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="codificadordeprioridade.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="codificadordeprioridade_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="codificadordeprioridade_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="codificadordeprioridade_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="codificadordeprioridade_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="codificadordeprioridade_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="codificadordeprioridade_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="codificadordeprioridade_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="codificadordeprioridade_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="codificadordeprioridade_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="codificadordeprioridade_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="codificadordeprioridade_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="codificadordeprioridade_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="codificadordeprioridade_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="codificadordeprioridade_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="codificadordeprioridade_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="codificadordeprioridade_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1567451596" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1567451596">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1567451596" xil_pn:in_ck="576132207070996179" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1567451596">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="codificadordeprioridade.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1567451596" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-9044832904953873877" xil_pn:start_ts="1567451596">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1567451596" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="3418866178078708973" xil_pn:start_ts="1567451596">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1567451596" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="3052694211677430353" xil_pn:start_ts="1567451596">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1568059851" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1568059851">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1568059851" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-1543640344755818616" xil_pn:start_ts="1568059851">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1568059851" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="3052694211677430353" xil_pn:start_ts="1568059851">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1568059851" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1568059851">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1568059851" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-2149293074498955002" xil_pn:start_ts="1568059851">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1568059851" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="2988080280822507185" xil_pn:start_ts="1568059851">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1568059851" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-835875774445816933" xil_pn:start_ts="1568059851">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1572466231" xil_pn:in_ck="576132207070996179" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="6649677295040258478" xil_pn:start_ts="1572466223">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="codificadordeprioridade.lso"/>
+      <outfile xil_pn:name="codificadordeprioridade.ngc"/>
+      <outfile xil_pn:name="codificadordeprioridade.ngr"/>
+      <outfile xil_pn:name="codificadordeprioridade.prj"/>
+      <outfile xil_pn:name="codificadordeprioridade.stx"/>
+      <outfile xil_pn:name="codificadordeprioridade.syr"/>
+      <outfile xil_pn:name="codificadordeprioridade.xst"/>
+      <outfile xil_pn:name="codificadordeprioridade_vhdl.prj"/>
+      <outfile xil_pn:name="codificadordeprioridade_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1567451451" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-6691280382160875909" xil_pn:start_ts="1567451451">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1572466237" xil_pn:in_ck="576132207070987433" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="6629944109645795134" xil_pn:start_ts="1572466231">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="codificadordeprioridade.bld"/>
+      <outfile xil_pn:name="codificadordeprioridade.ngd"/>
+      <outfile xil_pn:name="codificadordeprioridade_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1572466243" xil_pn:in_ck="576132207070987434" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-1303429204059397298" xil_pn:start_ts="1572466237">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="codificadordeprioridade.pcf"/>
+      <outfile xil_pn:name="codificadordeprioridade_map.map"/>
+      <outfile xil_pn:name="codificadordeprioridade_map.mrp"/>
+      <outfile xil_pn:name="codificadordeprioridade_map.ncd"/>
+      <outfile xil_pn:name="codificadordeprioridade_map.ngm"/>
+      <outfile xil_pn:name="codificadordeprioridade_map.xrpt"/>
+      <outfile xil_pn:name="codificadordeprioridade_summary.xml"/>
+      <outfile xil_pn:name="codificadordeprioridade_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1572466252" xil_pn:in_ck="-1670602208800155453" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="1934304854298957634" xil_pn:start_ts="1572466243">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="codificadordeprioridade.ncd"/>
+      <outfile xil_pn:name="codificadordeprioridade.pad"/>
+      <outfile xil_pn:name="codificadordeprioridade.par"/>
+      <outfile xil_pn:name="codificadordeprioridade.ptwx"/>
+      <outfile xil_pn:name="codificadordeprioridade.unroutes"/>
+      <outfile xil_pn:name="codificadordeprioridade.xpi"/>
+      <outfile xil_pn:name="codificadordeprioridade_pad.csv"/>
+      <outfile xil_pn:name="codificadordeprioridade_pad.txt"/>
+      <outfile xil_pn:name="codificadordeprioridade_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1572466252" xil_pn:in_ck="576132207070987302" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1572466249">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="codificadordeprioridade.twr"/>
+      <outfile xil_pn:name="codificadordeprioridade.twx"/>
+    </transform>
+  </transforms>
+
+</generated_project>

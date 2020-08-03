@@ -1,0 +1,15 @@
+V3 7
+FL "C:/Users/Dell/Documents/aprender vhdl/codigoprincipal/codigoprincipal.vhd" 2019/08/28.18:54:17 P.20131013
+EN work/codigoprincipal 1567029261 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/codigoprincipal/codigoprincipal.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/codigoprincipal/Behavioral 1567029262 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/codigoprincipal/codigoprincipal.vhd" \
+      EN work/codigoprincipal 1567029261 CP fulladder
+FL "C:/Users/Dell/Documents/aprender vhdl/componente/fulladder.vhd" 2019/08/28.16:52:05 P.20131013
+EN work/fulladder 1567029259 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/componente/fulladder.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/fulladder/Behavioral 1567029260 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/componente/fulladder.vhd" \
+      EN work/fulladder 1567029259

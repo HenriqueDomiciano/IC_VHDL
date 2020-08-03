@@ -1,0 +1,18 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_X_tb_isim_beh.exe -prj C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_X_tb_beh.prj work.sobel_X_tb 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_x.vhd" into library work
+Parsing VHDL file "C:/Users/Dell/Documents/aprender vhdl/sobel_x_opertator/sobel_X_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package textio
+Compiling architecture behavioral of entity sobel_x [\sobel_x(5,8,104,104,"rom.MIF")(...]
+Compiling architecture behavior of entity sobel_x_tb
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+FATAL_ERROR:Simulator:Fuse.cpp:209:1.133 - Failed to compile one of the generated C files. Please recompile with -mt off -v 1 switch to identify which design unit failed.  For technical support on this issue, please visit http://www.xilinx.com/support.

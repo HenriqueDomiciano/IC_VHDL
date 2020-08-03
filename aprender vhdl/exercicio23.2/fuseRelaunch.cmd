@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Dell/Documents/aprender vhdl/exercicio23.2/signalgenerato_TB_isim_beh.exe" -prj "C:/Users/Dell/Documents/aprender vhdl/exercicio23.2/signalgenerato_TB_beh.prj" "work.signalgenerato_TB" 

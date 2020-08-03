@@ -1,0 +1,3 @@
+vhdl isim_temp "../componente/fulladder.vhd"
+vhdl isim_temp "codigoprincipal.vhd"
+vhdl isim_temp "codigoprincipal_tb.vhd"

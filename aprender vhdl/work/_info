@@ -1,0 +1,387 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/19.1
+Eblob_1
+Z0 w1596398551
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 DPx4 work 12 new_packaage 0 22 3NoKi<j^]Q=eVXJARNzH33
+Z5 dC:/Users/Dell/Documents/aprender vhdl
+Z6 8C:/Users/Dell/Documents/aprender vhdl/blob_detection/blob_1.vhd
+Z7 FC:/Users/Dell/Documents/aprender vhdl/blob_detection/blob_1.vhd
+l0
+L9
+VBfVBimSTP_D:MABYYD<E_1
+!s100 J@44h4WYOR=WkFagU7J571
+Z8 OV;C;10.5b;63
+32
+Z9 !s110 1596471041
+!i10b 1
+Z10 !s108 1596471041.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Dell/Documents/aprender vhdl/blob_detection/blob_1.vhd|
+Z12 !s107 C:/Users/Dell/Documents/aprender vhdl/blob_detection/blob_1.vhd|
+!i113 1
+Z13 o-work work -2002 -explicit
+Z14 tExplicit 1 CvgOpt 0
+Abehavioral
+R1
+R2
+R3
+R4
+DEx4 work 6 blob_1 0 22 BfVBimSTP_D:MABYYD<E_1
+l128
+L32
+V^Y:66;gGQg<XO960BRoSW2
+!s100 `4=03Vi3RO34Ud?eXLOeV1
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Efiltrodemedia
+Z15 w1583846850
+R1
+R2
+R3
+R5
+Z16 8C:/Users/Dell/Documents/aprender vhdl/filtrodemedia/filtrodemedia.vhd
+Z17 FC:/Users/Dell/Documents/aprender vhdl/filtrodemedia/filtrodemedia.vhd
+l0
+L5
+VeP_eaNgNP>@AE[Ld^UcRG2
+!s100 K[Cf>491I]JYBF3cXhjG63
+R8
+32
+Z18 !s110 1583846956
+!i10b 1
+Z19 !s108 1583846956.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Dell/Documents/aprender vhdl/filtrodemedia/filtrodemedia.vhd|
+Z21 !s107 C:/Users/Dell/Documents/aprender vhdl/filtrodemedia/filtrodemedia.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R1
+R2
+R3
+DEx4 work 13 filtrodemedia 0 22 eP_eaNgNP>@AE[Ld^UcRG2
+l53
+L27
+V3?k1Z@on23]N^`jJ^8B7c1
+!s100 O@h1aPTV9R1UhEd5A[g4H2
+R8
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R13
+R14
+Eimportar_batman
+Z22 w1582304702
+R1
+R2
+R3
+R5
+Z23 8C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.vhd
+Z24 FC:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.vhd
+l0
+L7
+Vl>6CiaSUVPN_5YQ@F^2O83
+!s100 IF9SN[V6E_?ITg_KNRJl@0
+R8
+32
+Z25 !s110 1582304712
+!i10b 1
+Z26 !s108 1582304712.000000
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.vhd|
+Z28 !s107 C:/Users/Dell/Documents/aprender vhdl/new_batman/importar_batman.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R1
+R2
+R3
+DEx4 work 15 importar_batman 0 22 l>6CiaSUVPN_5YQ@F^2O83
+l52
+L24
+VPo_I6IN4m`ER2;NCLE>442
+!s100 az93QBSXIijIhVOPNB75_0
+R8
+32
+R25
+!i10b 1
+R26
+R27
+R28
+!i113 1
+R13
+R14
+Elaplaciano
+Z29 w1583964261
+R1
+R2
+R3
+R5
+Z30 8C:/Users/Dell/Documents/aprender vhdl/laplacianosemmedia/laplaciano.vhd
+Z31 FC:/Users/Dell/Documents/aprender vhdl/laplacianosemmedia/laplaciano.vhd
+l0
+L25
+VGMj5LU7m1M;6kR?4[PRnX1
+!s100 CZjI9c^^c<hj32kzOQ<T62
+R8
+32
+Z32 !s110 1584013366
+!i10b 1
+Z33 !s108 1584013366.000000
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Dell/Documents/aprender vhdl/laplacianosemmedia/laplaciano.vhd|
+Z35 !s107 C:/Users/Dell/Documents/aprender vhdl/laplacianosemmedia/laplaciano.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R1
+R2
+R3
+DEx4 work 10 laplaciano 0 22 GMj5LU7m1M;6kR?4[PRnX1
+l68
+L42
+V?bKbh1[[JXek9A;5U`To?2
+!s100 9@>@`cET3;L[odg8G9hQ21
+R8
+32
+R32
+!i10b 1
+R33
+R34
+R35
+!i113 1
+R13
+R14
+Emedia_filter
+Z36 w1581974951
+R1
+R2
+R3
+R5
+Z37 8C:/Users/Dell/Documents/aprender vhdl/filtrodemedia/filtro_de_media.vhd
+Z38 FC:/Users/Dell/Documents/aprender vhdl/filtrodemedia/filtro_de_media.vhd
+l0
+L5
+VoC2b7cPdo?A]E2V7j;_d23
+!s100 E]k;SeBA>7BWHo1Olj1PW0
+R8
+32
+Z39 !s110 1581975702
+!i10b 1
+Z40 !s108 1581975702.000000
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Dell/Documents/aprender vhdl/filtrodemedia/filtro_de_media.vhd|
+Z42 !s107 C:/Users/Dell/Documents/aprender vhdl/filtrodemedia/filtro_de_media.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R1
+R2
+R3
+DEx4 work 12 media_filter 0 22 oC2b7cPdo?A]E2V7j;_d23
+l52
+L26
+V@F]VW1R0U@YXQ[5B]8R[;3
+!s100 ;HFDnn]:bMK7T;CMcf:T61
+R8
+32
+R39
+!i10b 1
+R40
+R41
+R42
+!i113 1
+R13
+R14
+Emedian_filter
+Z43 w1596223198
+R1
+R2
+R3
+R4
+R5
+Z44 8C:/Users/Dell/Documents/aprender vhdl/blob_detection/median_filter.vhd
+Z45 FC:/Users/Dell/Documents/aprender vhdl/blob_detection/median_filter.vhd
+l0
+L34
+VjlcTAeoELk`bS^f[0]kN^2
+!s100 dTRW^]I=?kPfDFkJ:;>WB1
+R8
+32
+Z46 !s110 1596471042
+!i10b 1
+Z47 !s108 1596471042.000000
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Dell/Documents/aprender vhdl/blob_detection/median_filter.vhd|
+Z49 !s107 C:/Users/Dell/Documents/aprender vhdl/blob_detection/median_filter.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R1
+R2
+R3
+R4
+Z50 DEx4 work 13 median_filter 0 22 jlcTAeoELk`bS^f[0]kN^2
+l47
+L45
+Z51 VB6ODUMkZC5R4CB^kIjE4b1
+Z52 !s100 XESa4KHk5gN]:ZXKVgXL_3
+R8
+32
+R46
+!i10b 1
+R47
+R48
+R49
+!i113 1
+R13
+R14
+Pnew_packaage
+R1
+R2
+R3
+Z53 w1596223562
+R5
+Z54 8C:/Users/Dell/Documents/aprender vhdl/blob_detection/new_packaage.vhd
+Z55 FC:/Users/Dell/Documents/aprender vhdl/blob_detection/new_packaage.vhd
+l0
+L14
+V3NoKi<j^]Q=eVXJARNzH33
+!s100 Vf1>5I2;AHY=R7k]Wd0^g3
+R8
+32
+R46
+!i10b 1
+R47
+Z56 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Dell/Documents/aprender vhdl/blob_detection/new_packaage.vhd|
+Z57 !s107 C:/Users/Dell/Documents/aprender vhdl/blob_detection/new_packaage.vhd|
+!i113 1
+R13
+R14
+Bbody
+R4
+R1
+R2
+R3
+l0
+L38
+VPP>aY>[FHW0Bn16H7e6:a2
+!s100 <WcYUn9Z45]7WBJDNU`af1
+R8
+32
+R46
+!i10b 1
+R47
+R56
+R57
+!i113 1
+R13
+R14
+Esubtract
+Z58 w1593034312
+R1
+R2
+R3
+R4
+R5
+Z59 8C:/Users/Dell/Documents/aprender vhdl/blob_detection/subtract.vhd
+Z60 FC:/Users/Dell/Documents/aprender vhdl/blob_detection/subtract.vhd
+l0
+L31
+VT[<V[SIO<2nbLFZlJkV>a1
+!s100 ANYPN;ZabK0]zN^O]YmJe1
+R8
+32
+R46
+!i10b 1
+R47
+Z61 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Dell/Documents/aprender vhdl/blob_detection/subtract.vhd|
+Z62 !s107 C:/Users/Dell/Documents/aprender vhdl/blob_detection/subtract.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R1
+R2
+R3
+R4
+DEx4 work 8 subtract 0 22 T[<V[SIO<2nbLFZlJkV>a1
+l43
+L41
+Vb_WQGY:M9hPAY>aYi_>3>1
+!s100 z2X7DRkOiidGF[=XQk2aj3
+R8
+32
+R46
+!i10b 1
+R47
+R61
+R62
+!i113 1
+R13
+R14
+Ethreshold
+Z63 w1593030497
+R1
+R2
+R3
+R4
+R5
+Z64 8C:/Users/Dell/Documents/aprender vhdl/blob_detection/threshold.vhd
+Z65 FC:/Users/Dell/Documents/aprender vhdl/blob_detection/threshold.vhd
+l0
+L31
+V?`aYmfe>7B>Dlf[=Y^]]<3
+!s100 L4?c?2l`N9GzKHYnY4WiC1
+R8
+32
+R46
+!i10b 1
+R47
+Z66 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Dell/Documents/aprender vhdl/blob_detection/threshold.vhd|
+Z67 !s107 C:/Users/Dell/Documents/aprender vhdl/blob_detection/threshold.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R1
+R2
+R3
+R4
+DEx4 work 9 threshold 0 22 ?`aYmfe>7B>Dlf[=Y^]]<3
+l44
+L43
+VVem8a55>m[dG@d3KiYAb@1
+!s100 C[67oRI8m9j@NTKz7;U5z0
+R8
+32
+R46
+!i10b 1
+R47
+R66
+R67
+!i113 1
+R13
+R14

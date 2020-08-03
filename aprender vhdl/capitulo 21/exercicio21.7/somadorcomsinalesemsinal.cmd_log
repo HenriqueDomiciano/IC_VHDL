@@ -1,0 +1,26 @@
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.7/somadorcomsinalesemsinal.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.7/somadorcomsinalesemsinal.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.7/somadorcomsinalesemsinal.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.7/somadorcomsinalesemsinal.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.7/somadorcomsinalesemsinal.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.7/somadorcomsinalesemsinal.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.7/somadorcomsinalesemsinal.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.7/somadorcomsinalesemsinal.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "somadorcomsinalesemsinal.ngc" somadorcomsinalesemsinal.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o somadorcomsinalesemsinal_map.ncd somadorcomsinalesemsinal.ngd somadorcomsinalesemsinal.pcf 
+par -w -intstyle ise -ol high -t 1 somadorcomsinalesemsinal_map.ncd somadorcomsinalesemsinal.ncd somadorcomsinalesemsinal.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml somadorcomsinalesemsinal.twx somadorcomsinalesemsinal.ncd -o somadorcomsinalesemsinal.twr somadorcomsinalesemsinal.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.7/somadorcomsinalesemsinal.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.7/somadorcomsinalesemsinal.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "somadorcomsinalesemsinal.ngc" somadorcomsinalesemsinal.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o somadorcomsinalesemsinal_map.ncd somadorcomsinalesemsinal.ngd somadorcomsinalesemsinal.pcf 
+par -w -intstyle ise -ol high -t 1 somadorcomsinalesemsinal_map.ncd somadorcomsinalesemsinal.ncd somadorcomsinalesemsinal.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml somadorcomsinalesemsinal.twx somadorcomsinalesemsinal.ncd -o somadorcomsinalesemsinal.twr somadorcomsinalesemsinal.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.7/somadorcomsinalesemsinal.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.7/somadorcomsinalesemsinal.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.7/somadorcomsinalesemsinal.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.7/somadorcomsinalesemsinal.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.7/somadorcomsinalesemsinal.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.7/somadorcomsinalesemsinal.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.7/somadorcomsinalesemsinal.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio21.7/somadorcomsinalesemsinal.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "somadorcomsinalesemsinal.ngc" somadorcomsinalesemsinal.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o somadorcomsinalesemsinal_map.ncd somadorcomsinalesemsinal.ngd somadorcomsinalesemsinal.pcf 
+par -w -intstyle ise -ol high -t 1 somadorcomsinalesemsinal_map.ncd somadorcomsinalesemsinal.ncd somadorcomsinalesemsinal.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml somadorcomsinalesemsinal.twx somadorcomsinalesemsinal.ncd -o somadorcomsinalesemsinal.twr somadorcomsinalesemsinal.pcf 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/capitulo 21/exercicio21.7/somadorcomsinalesemsinal.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/capitulo 21/exercicio21.7/somadorcomsinalesemsinal.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "somadorcomsinalesemsinal.ngc" somadorcomsinalesemsinal.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o somadorcomsinalesemsinal_map.ncd somadorcomsinalesemsinal.ngd somadorcomsinalesemsinal.pcf 
+par -w -intstyle ise -ol high -t 1 somadorcomsinalesemsinal_map.ncd somadorcomsinalesemsinal.ncd somadorcomsinalesemsinal.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml somadorcomsinalesemsinal.twx somadorcomsinalesemsinal.ncd -o somadorcomsinalesemsinal.twr somadorcomsinalesemsinal.pcf 

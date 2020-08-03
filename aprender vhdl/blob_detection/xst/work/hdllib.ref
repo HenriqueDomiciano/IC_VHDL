@@ -1,0 +1,15 @@
+AR subtract behavioral "C:/Users/Dell/Documents/aprender vhdl/blob_detection/subtract.vhd" sub00/vhpl13 1596398560
+EN median_filter NULL "C:/Users/Dell/Documents/aprender vhdl/blob_detection/median_filter.vhd" sub00/vhpl06 1596398557
+AR blob_1 behavioral "C:/Users/Dell/Documents/aprender vhdl/blob_detection/blob_1.vhd" sub00/vhpl01 1596398564
+EN dilatation NULL "C:/Users/Dell/Documents/aprender vhdl/blob_detection/dilatation.vhd" sub00/vhpl10 1595353630
+EN subtract NULL "C:/Users/Dell/Documents/aprender vhdl/blob_detection/subtract.vhd" sub00/vhpl12 1596398559
+EN threshold NULL "C:/Users/Dell/Documents/aprender vhdl/blob_detection/threshold.vhd" sub00/vhpl08 1596398561
+AR dilatation behavioral "C:/Users/Dell/Documents/aprender vhdl/blob_detection/dilatation.vhd" sub00/vhpl11 1595353631
+PH manhatan_distance NULL "C:/Users/Dell/Documents/aprender vhdl/blob_detection/manhatan_distance.vhd" sub00/vhpl02 1592501981
+PB new_packaage new_packaage "C:/Users/Dell/Documents/aprender vhdl/blob_detection/new_packaage.vhd" sub00/vhpl05 1596398556
+PH new_packaage NULL "C:/Users/Dell/Documents/aprender vhdl/blob_detection/new_packaage.vhd" sub00/vhpl04 1596398555
+PB manhatan_distance manhatan_distance "C:/Users/Dell/Documents/aprender vhdl/blob_detection/manhatan_distance.vhd" sub00/vhpl03 1592501982
+EN blob_1 NULL "C:/Users/Dell/Documents/aprender vhdl/blob_detection/blob_1.vhd" sub00/vhpl00 1596398563
+AR median_filter behavioral "C:/Users/Dell/Documents/aprender vhdl/blob_detection/median_filter.vhd" sub00/vhpl07 1596398558
+EN blob NULL "C:/Users/Dell/Documents/aprender vhdl/blob_detection/blob.vhd" sub00/vhpl14 1593034544
+AR threshold behavioral "C:/Users/Dell/Documents/aprender vhdl/blob_detection/threshold.vhd" sub00/vhpl09 1596398562

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="blob_detection.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="blob_1.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="blob_1.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="blob_1.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="blob_1.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="blob_1.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="blob_1.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="blob_1_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="blob_1_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="blob_1_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="blob_1_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="dilatation.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="dilatation.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="dilatation.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="manhatan_distance.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="manhatan_distance.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="manhatan_distance.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="median_filter.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="median_filter.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="median_filter.xst"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1591290142" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1591290142">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1591290142" xil_pn:in_ck="4705078590950431" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1591290142">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputChanged"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1591290142" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-9044832904953873877" xil_pn:start_ts="1591290142">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1591290142" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="3418866178078708973" xil_pn:start_ts="1591290142">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1591290142" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="2009920130030595757" xil_pn:start_ts="1591290142">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1595366958" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1595366958">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1595366958" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="6310669402680400596" xil_pn:start_ts="1595366958">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1595366958" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="2009920130030595757" xil_pn:start_ts="1595366958">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1595366958" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1595366958">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1595366958" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="5965364271475675282" xil_pn:start_ts="1595366958">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1595366958" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="2988080280845075520" xil_pn:start_ts="1595366958">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1595366958" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="764224603704617655" xil_pn:start_ts="1595366958">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1596412691" xil_pn:in_ck="4126617077896949213" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-1842332278407908278" xil_pn:start_ts="1596398551">
+      <status xil_pn:value="AbortedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name=".lso"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="blob_1.lso"/>
+      <outfile xil_pn:name="blob_1.prj"/>
+      <outfile xil_pn:name="blob_1.syr"/>
+      <outfile xil_pn:name="blob_1.xst"/>
+      <outfile xil_pn:name="blob_1_vhdl.prj"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1594602941" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-2392094790820355961" xil_pn:start_ts="1594602941">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+  </transforms>
+
+</generated_project>

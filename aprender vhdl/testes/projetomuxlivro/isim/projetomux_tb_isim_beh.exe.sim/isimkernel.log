@@ -1,0 +1,28 @@
+Command line:
+   projetomux_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  56719
+
+Tue Aug 27 14:59:48 2019
+
+
+ Elaboration Time: 0.140625 sec
+
+ Current Memory Usage: 1341.17 Meg
+
+ Total Signals          : 15
+ Total Nets             : 50
+ Total Signal Drivers   : 5
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 3
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 410
+
+ Total Simulation Time: 1.125 sec
+
+ Current Memory Usage: 1341.14 Meg
+
+Tue Aug 27 15:00:29 2019
+

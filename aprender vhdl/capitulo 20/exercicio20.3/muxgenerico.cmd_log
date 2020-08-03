@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio20.3/muxgenerico.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio20.3/muxgenerico.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio20.3/muxgenerico.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio20.3/muxgenerico.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio20.3/muxgenerico.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio20.3/muxgenerico.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/exercicio20.3/muxgenerico.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/exercicio20.3/muxgenerico.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/capitulo 20/exercicio20.3/muxgenerico.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/capitulo 20/exercicio20.3/muxgenerico.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/capitulo 20/exercicio20.3/muxgenerico.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/capitulo 20/exercicio20.3/muxgenerico.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/capitulo 20/exercicio20.3/muxgenerico.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/capitulo 20/exercicio20.3/muxgenerico.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/capitulo 20/exercicio20.3/muxgenerico.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/capitulo 20/exercicio20.3/muxgenerico.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/capitulo 20/exercicio20.3/muxgenerico.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/capitulo 20/exercicio20.3/muxgenerico.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 "muxgenerico.ngc" muxgenerico.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o muxgenerico_map.ncd muxgenerico.ngd muxgenerico.pcf 
+par -w -intstyle ise -ol high -t 1 muxgenerico_map.ncd muxgenerico.ncd muxgenerico.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml muxgenerico.twx muxgenerico.ncd -o muxgenerico.twr muxgenerico.pcf 

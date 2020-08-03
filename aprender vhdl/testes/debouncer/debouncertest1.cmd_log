@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/debouncer/debouncertest1.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/debouncer/debouncertest1.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/debouncer/debouncertest1.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/debouncer/debouncertest1.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/debouncer/debouncertest1.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/debouncer/debouncertest1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "debouncertest1.ngc" debouncertest1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o debouncertest1_map.ncd debouncertest1.ngd debouncertest1.pcf 
+par -w -intstyle ise -ol high -t 1 debouncertest1_map.ncd debouncertest1.ncd debouncertest1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml debouncertest1.twx debouncertest1.ncd -o debouncertest1.twr debouncertest1.pcf 

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Dell/Documents/aprender vhdl/capitulo 20/exercicio20.3/muxgenerico_isim_beh.exe" -prj "C:/Users/Dell/Documents/aprender vhdl/capitulo 20/exercicio20.3/muxgenerico_beh.prj" "work.muxgenerico" 

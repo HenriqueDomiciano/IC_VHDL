@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Dell/Documents/aprender vhdl/exerccio21.4/comparador_tb_isim_beh.exe" -prj "C:/Users/Dell/Documents/aprender vhdl/exerccio21.4/comparador_tb_beh.prj" "work.comparador_tb" 

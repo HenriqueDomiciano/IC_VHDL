@@ -1,0 +1,2 @@
+vhdl work "signalgenerator.vhd"
+vhdl work "signalgenerator_TB.vhd"

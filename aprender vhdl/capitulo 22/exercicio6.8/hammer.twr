@@ -1,0 +1,106 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
+-n 3 -fastpaths -xml hammer.twx hammer.ncd -o hammer.twr hammer.pcf
+
+Design file:              hammer.ncd
+Physical constraint file: hammer.pcf
+Device,package,speed:     xc3s500e,fg320,-4 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+entrada<1>     |weight<0>      |    6.608|
+entrada<1>     |weight<1>      |   14.572|
+entrada<1>     |weight<2>      |   14.654|
+entrada<1>     |weight<3>      |   23.936|
+entrada<2>     |weight<0>      |    6.415|
+entrada<2>     |weight<1>      |   14.043|
+entrada<2>     |weight<2>      |   14.125|
+entrada<2>     |weight<3>      |   23.407|
+entrada<3>     |weight<0>      |    8.178|
+entrada<3>     |weight<1>      |   15.128|
+entrada<3>     |weight<2>      |   15.210|
+entrada<3>     |weight<3>      |   24.492|
+entrada<4>     |weight<0>      |    8.138|
+entrada<4>     |weight<1>      |   15.088|
+entrada<4>     |weight<2>      |   15.170|
+entrada<4>     |weight<3>      |   24.452|
+entrada<5>     |weight<0>      |    8.379|
+entrada<5>     |weight<1>      |   15.329|
+entrada<5>     |weight<2>      |   15.411|
+entrada<5>     |weight<3>      |   24.693|
+entrada<6>     |weight<0>      |    8.263|
+entrada<6>     |weight<1>      |   15.213|
+entrada<6>     |weight<2>      |   15.295|
+entrada<6>     |weight<3>      |   24.577|
+entrada<7>     |weight<0>      |    8.553|
+entrada<7>     |weight<1>      |   15.503|
+entrada<7>     |weight<2>      |   15.585|
+entrada<7>     |weight<3>      |   24.867|
+entrada<8>     |weight<0>      |   10.028|
+entrada<8>     |weight<1>      |   16.978|
+entrada<8>     |weight<2>      |   17.060|
+entrada<8>     |weight<3>      |   26.342|
+entrada<9>     |weight<0>      |   11.403|
+entrada<9>     |weight<1>      |   18.353|
+entrada<9>     |weight<2>      |   18.435|
+entrada<9>     |weight<3>      |   27.717|
+entrada<10>    |weight<0>      |   11.231|
+entrada<10>    |weight<1>      |   18.181|
+entrada<10>    |weight<2>      |   18.263|
+entrada<10>    |weight<3>      |   27.545|
+entrada<11>    |weight<0>      |   11.829|
+entrada<11>    |weight<1>      |   18.779|
+entrada<11>    |weight<2>      |   18.861|
+entrada<11>    |weight<3>      |   28.143|
+entrada<12>    |weight<1>      |   14.234|
+entrada<12>    |weight<2>      |   14.316|
+entrada<12>    |weight<3>      |   23.598|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Oct 14 16:46:35 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4509 MB
+
+
+

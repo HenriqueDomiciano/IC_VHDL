@@ -1,0 +1,11 @@
+V3 5
+FL "C:/Users/Dell/Documents/aprender vhdl/exercicio20.04/bcdtossd.vhd" 2019/09/02.18:41:46 P.20131013
+EN work/bcdtossd 1567460509 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/exercicio20.04/bcdtossd.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/bcdtossd/Behavioral 1567460510 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/exercicio20.04/bcdtossd.vhd" \
+      EN work/bcdtossd 1567460509
+PH work/mypackage 0 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/exercicio20.04/mypackage.vhd" \
+      PB ieee/std_logic_1164 1381692176

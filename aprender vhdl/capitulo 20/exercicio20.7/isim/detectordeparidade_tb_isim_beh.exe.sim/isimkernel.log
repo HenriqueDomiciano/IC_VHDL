@@ -1,0 +1,28 @@
+Command line:
+   detectordeparidade_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  60940
+
+Wed Oct 30 17:13:58 2019
+
+
+ Elaboration Time: 0.203125 sec
+
+ Current Memory Usage: 5830.45 Meg
+
+ Total Signals          : 8
+ Total Nets             : 24
+ Total Signal Drivers   : 5
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 2
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 384
+
+ Total Simulation Time: 0.203125 sec
+
+ Current Memory Usage: 5830.45 Meg
+
+Wed Oct 30 17:14:17 2019
+

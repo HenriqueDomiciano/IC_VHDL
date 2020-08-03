@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/filtrodemedia/media_filter.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/filtrodemedia/media_filter.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/filtrodemedia/media_filter.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/filtrodemedia/media_filter.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/filtrodemedia/media_filter.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/filtrodemedia/media_filter.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Documents/aprender vhdl/filtrodemedia/media_filter.xst" -ofn "C:/Users/Dell/Documents/aprender vhdl/filtrodemedia/media_filter.syr" 

@@ -1,0 +1,24 @@
+V3 9
+FL "C:/Users/Dell/Documents/aprender vhdl/filtrodemedia/filtrodemedia.vhd" 2020/03/10.10:27:30 P.20131013
+EN work/FILTRODEMEDIA 1583846852 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/filtrodemedia/filtrodemedia.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB std/TEXTIO 1381692176 PB work/tipos 1592855749
+AR work/FILTRODEMEDIA/behavioral 1583846853 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/filtrodemedia/filtrodemedia.vhd" \
+      EN work/FILTRODEMEDIA 1583846852
+FL "C:/Users/Dell/Documents/aprender vhdl/filtrodemedia/filtro_de_media.vhd" 2020/02/17.18:29:11 P.20131013
+EN work/media_filter 1581975357 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/filtrodemedia/filtro_de_media.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB std/TEXTIO 1381692176
+AR work/media_filter/behavioral 1581975358 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/filtrodemedia/filtro_de_media.vhd" \
+      EN work/media_filter 1581975357
+FL "C:/Users/Dell/Documents/aprender vhdl/filtrodemedia/tipos.vhd" 2020/06/22.16:51:04 P.20131013
+PH work/tipos 1592855748 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/filtrodemedia/tipos.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+PB work/tipos 1592855749 \
+      FL "C:/Users/Dell/Documents/aprender vhdl/filtrodemedia/tipos.vhd" \
+      PH work/tipos 1592855748
