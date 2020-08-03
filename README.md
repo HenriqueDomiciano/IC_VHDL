@@ -1,4 +1,4 @@
-# IC_VHDL
+# IC VHDL
 Arquivos em VHDL da IC
 
 ### Pré-Processamento e subtração de imagens
@@ -22,4 +22,12 @@ Segunda imagem
 
 ![imagem25](https://user-images.githubusercontent.com/62803845/89231936-bd9d6c00-d5bc-11ea-86fc-9322a044981e.jpg)
 
-Caso for utilizada a subtração direta de imagens obtemos o resultado abaixo de imagens:
+Caso for utilizada a subtração direta de imagens e aplicação de um threshold fixo obtemos o resultado abaixo de imagens:
+
+![im130](https://user-images.githubusercontent.com/62803845/89234988-af068300-d5c3-11ea-95ff-352615181532.jpg)
+
+![im125](https://user-images.githubusercontent.com/62803845/89234991-b0d04680-d5c3-11ea-9b5b-7a9d176faff4.jpg)
+
+Ápos a aplicação deste thrshold devemos então seguir para encontrar os valores dos blobs, podemos notar que os valores dos dados 
+ainda não são tão precisas e ainda aparecem pixeis em branco, para isso devemos aplicar mais um filtro de media e o trehshold
+
