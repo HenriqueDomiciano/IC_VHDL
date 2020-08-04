@@ -1,0 +1,46 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/Dell/Documents/aprender vhdl/blob_detection/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/Dell/Documents/aprender vhdl/blob_detection/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.18 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Dell/Documents/aprender vhdl/blob_detection/new_packaage.vhd" in Library work.
+Architecture new_packaage of Entity new_packaage is up to date.
+Compiling vhdl file "C:/Users/Dell/Documents/aprender vhdl/blob_detection/median_filter.vhd" in Library work.
+Architecture behavioral of Entity median_filter is up to date.
+Compiling vhdl file "C:/Users/Dell/Documents/aprender vhdl/blob_detection/subtract.vhd" in Library work.
+Architecture behavioral of Entity subtract is up to date.
+Compiling vhdl file "C:/Users/Dell/Documents/aprender vhdl/blob_detection/threshold2.vhd" in Library work.
+Architecture behavioral of Entity threshold2 is up to date.
+Compiling vhdl file "C:/Users/Dell/Documents/aprender vhdl/blob_detection/threshold.vhd" in Library work.
+Architecture behavioral of Entity threshold is up to date.
+Compiling vhdl file "C:/Users/Dell/Documents/aprender vhdl/blob_detection/blob_1.vhd" in Library work.
+Entity <blob_1> compiled.
+WARNING:HDLParsers:3534 - "C:/Users/Dell/Documents/aprender vhdl/blob_detection/blob_1.vhd" Line 64. In the function init_mem, not all control paths contain a return statement.
+Entity <blob_1> (Architecture <behavioral>) compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.43 secs
+ 
+--> 
+
+Total memory usage is 4484860 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

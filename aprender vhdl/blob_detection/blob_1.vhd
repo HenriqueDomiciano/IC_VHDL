@@ -20,8 +20,7 @@ generic(
   port(
 	 val : out integer;
 	 load : std_logic :='0';
-	 clk : in std_logic;
-	 clk2: in std_logic
+	 clk : in std_logic
 	 --second_clk: in std_logic
     --data: out std_logic_vector ((DATA_WIDTH-1) DOWNTO 0);
 	 --we : in std_logic :='0';
@@ -62,23 +61,6 @@ for m in 0 to max_value-1 loop
 			end loop;
 	end loop;
 end loop; 
---							if m>=counter and m<=(counter+76800) then
---								temp_mem(i,j) :=(temp_bv);
---								j:=j+1;
---								if j=columns-1 then 
---									i:=i+1;
---									j:=0;
---									if i=rows-1 then
---										i:=0;
---										j:=0;
---									end if; 
---								end if; 
---							end if;
---	elsif m>counter+76800 then 
---		exit;	
---	 end if; 
---end loop; 
-	return temp_mem;
 end function; 
 ----------------------------------------------------------------------------------------------------------------
 ---------------------------------**********sinais internos***********---------------------------------------------
@@ -90,7 +72,9 @@ signal new_value : mem_type;
 signal new_value_2 : mem_type;
 signal new_value_3 : mem_type;
 signal new_value_4 : mem_type;
-signal new_value_5 : last_type;   
+signal new_value_5 : mem_type;
+signal new_value_6 : mem_type;
+signal new_value_7 : last_type;   
 signal blob_counter,teste_1 : integer :=0;
 signal coordenada: vect_coord ; 
 signal gate_0,gate_1,gate_2,gate_3,gate_4,gate_5,gate_6,start : std_logic;
@@ -125,53 +109,65 @@ component subtract is
 			 sub_image: out mem_type
 			); 
 end component; 
-----------------------------*************component in stantiation***************-----------------------------------------------------------------
+component threshold2 is 
+port(		gate1: in std_logic; 
+				orig1: in mem_type ; 
+				 is_done1 : out std_logic; 
+				 trh1: out mem_type
+);
+end component;
+----------------------------*************pointer of the images***************-----------------------------------------------------------------
 begin
 	process(gate_0,clk)
 		begin
 			if gate_0='1' then
-				gate_1<='1';
-				new_image<=init_mem(archive,contador_2,max_value) ;
-				new_value<=init_mem(archive,contador_1,max_value) ;
-				contador_1 <= contador_1+76800 ; 
-				contador_2 <= contador_2+76800 ;
+				gate_1<='1';--ativa o enable do primeiro nivel de pré- processamento
+				new_image<=init_mem(archive,contador_2,max_value) ;--leitura da primeira imagem 
+				new_value<=init_mem(archive,contador_1,max_value) ;-- leitura segunda imagem 
+				contador_1 <= contador_1+76800 ; -- adiciona 76800 no pointer1
+				contador_2 <= contador_2+76800 ;-- adiciona 76800 no pointer2
 			else 
-				gate_1<='0';
+				gate_1<='0'; --não ativa o enable do primeiro pré- processamento e desativa os enables
+				gate_2<='0';
+				gate_3<='0';
+				gate_4<='0';
+				gate_5<='0';
+				gate_6<='0';
 			end if; 
 	end process; 
 
 ------------------------------**************algoritmo de leitura*************-----------------------------------------------
 
-process (new_value_5,clk) 
+process (new_value_7) 
 		variable diference,diference_2 : integer ;
 		variable x,y,m,k : integer :=0; 
 begin
-for x in 0 to rows-1 loop 
-	for y in 0 to columns-1 loop 
-				if ((new_value_5(x,y)='1') and (blob_counter>0)) then
-					diference:= x-coordenada(k,0);
-					diference_2 := y-coordenada(k,1); 
-					if diference<0 then
+for x in 0 to rows-1 loop -- inicia a leitura das linhas  na imagem final 
+	for y in 0 to columns-1 loop -- inicia a leitura das colunas na imagem final
+				if ((new_value_7(x,y)='1') and (blob_counter>0)) then-- caso já exista um blob detectado
+					diference:= x-coordenada(k,0);-- diference recebe a diferença entre a ultima coordenada em x com a coordenada da detecção 
+					diference_2 := y-coordenada(k,1); --faz a mesma coisa que o anterior só que no eixo y
+					if diference<0 then -- é utilizada a distancia manhatam se x é negativo é só inverter a ordem da subtração
 						diference:=coordenada(k,0)-x;
-						val<=diference;
+						val<=diference;-- variavel de teste
 					end if; 
-					if diference_2<0 then 
+					if diference_2<0 then --mesmo processo eixo y
 						diference_2:= coordenada(k,1)-y;
-						val<=diference;
+						val<=diference;-- variavel de teste
 					end if;
-							if (diference>50) and (diference_2>50) then 
-									blob_counter<=1+blob_counter;
+							if (diference>50) and (diference_2>50) then -- se a distancia manhatam for maior que 50(a distancia euclidiana tambem se aplica) 
+									blob_counter<=1+blob_counter;-- aumentamos o blob counter 
 									k:=k+1;
-									coordenada(k,0)<=x;
-									coordenada(k,1)<=y;
-									m:=m+1 ;
+									coordenada(k,0)<=x;--escrevemos no vetor coordenadas as coordenadas de x 
+									coordenada(k,1)<=y;--escrevemos no vetor as coordenadas de y 
+									m:=m+1 ;-- variavel de  teste
 										if m>number_of_blobs then 
 											m:=0; 
 										end if ;
 							end if;
 				end if; 
 				
-				if ((new_value_5(x,y)='1') and (blob_counter=0)) then
+				if ((new_value_7(x,y)='1') and (blob_counter=0)) then--caso nenhum blob tenha sido identificado entramos neste if
 							coordenada(0,0)<=x;
 							coordenada(0,1)<=y;
 							blob_counter<=1;
@@ -184,9 +180,11 @@ end process	;
 media1: median_filter port map(original=>new_value,filtered=>new_value_2,gate=>gate_1,is_done=>gate_2);-- aplicando o filtro de media na primeira imagem; 
 media2: median_filter port map(original=>new_image,filtered =>new_value_3,gate=>gate_1,is_done=>gate_3);	-- aplicando o filtro de media na segunda imagem 
 subtração: subtract port map(sub_image=>new_value_4,gate=>gate_3,image1=>new_value_2,image2=>new_value_3,is_done=>gate_4);
-threshold_1: threshold   port map(orig=>new_value_4,gate=>gate_5,trh=>new_value_5) ;--aplicando o threshold 
+threshold_0: threshold2 port map(orig1=>new_value_4,gate1=>gate_4,trh1=>new_value_5,is_done1=>gate_5);
+median_int: median_filter port map (original=>new_value_5,filtered=>new_value_6,gate=>gate_5,is_done=>gate_6);
+threshold_2: threshold   port map(orig=>new_value_6,gate=>gate_6,trh=>new_value_7) ;--aplicando o threshold 
 
---*********************teste analise janela de 20x20***********************************
+--*********************teste analise janela de 20x20(não construído)***********************************
 -- iniciando uma analise para blob detection:
 --process is 
 -- variable i,j : integer in range 0 to 1023 :=0

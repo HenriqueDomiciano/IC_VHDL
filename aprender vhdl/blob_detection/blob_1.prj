@@ -1,4 +1,5 @@
 vhdl work "new_packaage.vhd"
+vhdl work "threshold2.vhd"
 vhdl work "threshold.vhd"
 vhdl work "subtract.vhd"
 vhdl work "median_filter.vhd"

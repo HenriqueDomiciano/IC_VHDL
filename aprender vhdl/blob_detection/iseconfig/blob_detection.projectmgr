@@ -10,13 +10,13 @@
          <ClosedNode>/blob_1 - behavioral C:|Users|Dell|Documents|aprender vhdl|blob_detection|blob_1.vhd/manhatan_distance</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>media2 - median_filter - Behavioral (C:/Users/Dell/Documents/aprender vhdl/blob_detection/median_filter.vhd)</SelectedItem>
+         <SelectedItem>blob_1 - behavioral (C:/Users/Dell/Documents/aprender vhdl/blob_detection/blob_1.vhd)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >1</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000002a6000000020000000000000000000000000200000064ffffffff000000810000000300000002000002a60000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000002ba000000020000000000000000000000000200000064ffffffff000000810000000300000002000002ba0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>media2 - median_filter - Behavioral (C:/Users/Dell/Documents/aprender vhdl/blob_detection/median_filter.vhd)</CurrentItem>
+      <CurrentItem>blob_1 - behavioral (C:/Users/Dell/Documents/aprender vhdl/blob_detection/blob_1.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -67,13 +67,13 @@
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem>View RTL Schematic</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001b4000000010000000100000000000000000000000064ffffffff000000810000000000000001000001b40000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001a3000000010000000100000000000000000000000064ffffffff000000810000000000000001000001a30000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem>View RTL Schematic</CurrentItem>
    </ItemView>
    <SourceProcessView>000000ff00000000000000020000009d000000d701000000050100000002</SourceProcessView>
    <CurrentView>Implementation</CurrentView>

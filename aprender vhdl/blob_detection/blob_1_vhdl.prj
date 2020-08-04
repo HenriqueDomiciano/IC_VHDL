@@ -1,4 +1,5 @@
 vhdl work "C:\Users\Dell\Documents\aprender vhdl\blob_detection\new_packaage.vhd"
+vhdl work "C:\Users\Dell\Documents\aprender vhdl\blob_detection\threshold2.vhd"
 vhdl work "C:\Users\Dell\Documents\aprender vhdl\blob_detection\threshold.vhd"
 vhdl work "C:\Users\Dell\Documents\aprender vhdl\blob_detection\subtract.vhd"
 vhdl work "C:\Users\Dell\Documents\aprender vhdl\blob_detection\median_filter.vhd"
