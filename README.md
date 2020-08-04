@@ -4,7 +4,12 @@ Arquivos em VHDL da IC
 ### O que a FPGA lê:
 
 Não é obvio como uma FPGA fara a leitura dos dados de uma imagem. Para poder fazer a leitura de uma imagem devemos tratar imagens como dados.
-Então transformamos os valores de píxeis para valores em um arquivo .mif para isso utilizamos o python para construir o arquivo 
+Então transformamos os valores de píxeis para valores em um arquivo .mif para isso utilizamos o python para construir o arquivo .mif 
+
+#### Ok mas como fazer isso com videos?
+
+Tratar de vídeos tambem não parece ser algo tão fácil e existem diferentes maneiras para fazer isso, a maneira por mim escolhida consistia em adotar um ponteiro para determinar o tamanho e a posição atual de qual imagem estamos analisando. Uma imagem por si só não é de grande vantagem mas precisamos analisar duas imagens para podermos subtrair uma imagem de outra, para isso determinamos dois ponteiros de tamanhos diferentes e que tem uma diferença do numero de linhas multiplicados pelo numero de colunas.
+
 
 ### Pré-Processamento e subtração de imagens
 
