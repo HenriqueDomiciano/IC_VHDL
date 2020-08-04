@@ -1,6 +1,11 @@
 # IC VHDL
 Arquivos em VHDL da IC
 
+### O que a FPGA lê:
+
+Não é obvio como uma FPGA fara a leitura dos dados de uma imagem. Para poder fazer a leitura de uma imagem devemos tratar imagens como dados.
+Então transformamos os valores de píxeis para valores em um arquivo .mif  
+
 ### Pré-Processamento e subtração de imagens
 
 Para iniciarmos o processamento de imagems, inicialmente, aplicamos o filtro de média na imagem obtendo esta imagem em seguida 
@@ -29,5 +34,12 @@ Caso for utilizada a subtração direta de imagens e aplicação de um threshold
 ![im125](https://user-images.githubusercontent.com/62803845/89234991-b0d04680-d5c3-11ea-9b5b-7a9d176faff4.jpg)
 
 Ápos a aplicação deste thrshold devemos então seguir para encontrar os valores dos blobs, podemos notar que os valores dos dados 
-ainda não são tão precisas e ainda aparecem pixeis em branco, para isso devemos aplicar mais um filtro de media e o trehshold
+ainda não são tão precisas e ainda aparecem pixeis em branco, para isso devemos aplicar mais um filtro de media e o threshold
 
+![im125](https://user-images.githubusercontent.com/62803845/89236614-749ee500-d5c7-11ea-843d-6cef82c42ba5.jpg)
+
+![im130](https://user-images.githubusercontent.com/62803845/89236623-7799d580-d5c7-11ea-888d-ab6d2edc7b68.jpg)
+
+Obtendo este resultado que encontra acima.
+
+Estes resultados então Já são melhores pois então a distância entre blobs já se aplicam melhor, uma vez que existe um threshold de distância
