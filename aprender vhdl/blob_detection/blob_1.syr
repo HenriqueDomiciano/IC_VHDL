@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.21 secs
+Total CPU time to Xst completion: 0.26 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.21 secs
+Total CPU time to Xst completion: 0.26 secs
  
 --> Reading design: blob_1.prj
 
@@ -110,6 +110,8 @@ Compiling vhdl file "C:/Users/Dell/Documents/aprender vhdl/blob_detection/median
 Architecture behavioral of Entity median_filter is up to date.
 Compiling vhdl file "C:/Users/Dell/Documents/aprender vhdl/blob_detection/subtract.vhd" in Library work.
 Architecture behavioral of Entity subtract is up to date.
+Compiling vhdl file "C:/Users/Dell/Documents/aprender vhdl/blob_detection/threshold2.vhd" in Library work.
+Architecture behavioral of Entity threshold2 is up to date.
 Compiling vhdl file "C:/Users/Dell/Documents/aprender vhdl/blob_detection/threshold.vhd" in Library work.
 Architecture behavioral of Entity threshold is up to date.
 Compiling vhdl file "C:/Users/Dell/Documents/aprender vhdl/blob_detection/blob_1.vhd" in Library work.
@@ -130,6 +132,9 @@ Analyzing hierarchy for entity <median_filter> in library <work> (architecture <
 	ROWS = 320
 
 Analyzing hierarchy for entity <subtract> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <threshold2> in library <work> (architecture <behavioral>) with generics.
+	tresh = 100
 
 Analyzing hierarchy for entity <threshold> in library <work> (architecture <behavioral>) with generics.
 	tresh = 100

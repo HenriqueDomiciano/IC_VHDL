@@ -54,13 +54,19 @@ for m in 0 to max_value-1 loop
 								temporary:= to_stdlogicvector(temp_bv) ;
 								temp_mem(i,j):=to_integer(unsigned(temporary));
 							elsif m>counter+76800 then 
-								return temp_mem;
 								exit;
 							end if; 
 					end if;
 			end loop;
+			if m>counter+76800 then 
+				exit;
+			end if; 
 	end loop;
+	if m>counter+76800 then 
+				exit;
+	end if; 
 end loop; 
+return temp_mem;
 end function; 
 ----------------------------------------------------------------------------------------------------------------
 ---------------------------------**********sinais internos***********---------------------------------------------
