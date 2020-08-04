@@ -4,7 +4,7 @@ Arquivos em VHDL da IC
 ### O que a FPGA lê:
 
 Não é obvio como uma FPGA fara a leitura dos dados de uma imagem. Para poder fazer a leitura de uma imagem devemos tratar imagens como dados.
-Então transformamos os valores de píxeis para valores em um arquivo .mif  
+Então transformamos os valores de píxeis para valores em um arquivo .mif para isso utilizamos o python para construir o arquivo 
 
 ### Pré-Processamento e subtração de imagens
 
