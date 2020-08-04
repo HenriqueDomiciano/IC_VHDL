@@ -8,7 +8,7 @@ Então transformamos os valores de píxeis para valores em um arquivo .mif para 
 
 #### Ok mas como fazer isso com videos?
 
-Tratar de vídeos tambem não parece ser algo tão fácil e existem diferentes maneiras para fazer isso, a maneira por mim escolhida consistia em adotar um ponteiro para determinar o tamanho e a posição atual de qual imagem estamos analisando. Uma imagem por si só não é de grande vantagem mas precisamos analisar duas imagens para podermos subtrair uma imagem de outra, para isso determinamos dois ponteiros de tamanhos diferentes e que tem uma diferença do numero de linhas multiplicados pelo numero de colunas.
+Tratar de vídeos tambem não parece ser algo tão fácil e existem diferentes maneiras para fazer isso, a maneira por mim escolhida consistia em adotar um ponteiro para determinar o tamanho e a posição atual de qual imagem estamos analisando. Uma imagem por si só não é de grande vantagem mas precisamos analisar duas imagens para podermos subtrair uma imagem de outra, para isso determinamos dois ponteiros de tamanhos diferentes e que tem uma diferença do número de linhas multiplicados pelo número de colunas.
 
 
 ### Pré-Processamento e subtração de imagens
